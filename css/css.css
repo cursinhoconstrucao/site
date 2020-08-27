@@ -1,0 +1,117 @@
+/***** geral *****/
+#all{
+    width: 900px;
+    margin: auto;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+a{
+    color: inherit;
+    
+}
+
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+h1,h2{
+    font-family: Verdana;
+}
+
+h1{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 200%;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p,li{
+    font-family: Calibri;
+    color: rgb(70, 70, 70);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+b{
+    color: rgb(50, 50, 50);
+    font-weight: 600;
+}
+
+/***** botões *****/
+
+a.buttonGitHub{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    
+    text-align: center;
+    vertical-align: middle;
+    padding: 7px;
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+    color: initial;
+}
+
+.botão{
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 100px;
+    height: 70px;
+    font-family: Calibri;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.botão1,.botão2,.botão3,.botão4,.botão5,.botão6,.botão7,.botão8{ background-color: white; }
+
+/* botões antes de passar o mouse em cima */
+.botão1,.botão2,.botão3,.botão4,.botão5,.botão6,.botão7,.botão8{ color: black ; border: 1px solid rgb(150, 150, 150);}
+
+/* botões passando o mouse em cima */
+.botão1:hover{                              background-color: rgb(30, 30, 30) ; color: white; }
+.botão2:hover,.botão3:hover{                background-color: rgb(128, 33, 72); color: white; }
+.botão4:hover,.botão5:hover{                background-color: rgb(175, 0, 0); color: white; }
+.botão6:hover,.botão7:hover,.botão8:hover{  background-color: rgb(190, 165, 19); color: white; }
+
+/***** telas menores *****/
+@media only screen and (max-width:1100px){
+    #all{
+        width: 400px;
+        margin: auto;
+    }
+
+    #map {
+        width: 400px;
+        height: 500px;
+    }
+
+}
+
+@media only screen and (max-width:900px){
+    #all{
+        width: 350px;
+        margin: auto;
+    }
+
+    #map {
+        width: 350px;
+        height: 400px;
+    }
+
+}
