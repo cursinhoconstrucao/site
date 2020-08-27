@@ -13,7 +13,7 @@
 
 a{
     color: inherit;
-    
+    text-decoration: inherit;
 }
 
 body{
@@ -84,10 +84,10 @@ a.buttonGitHub{
 .botão1,.botão2,.botão3,.botão4,.botão5,.botão6,.botão7,.botão8{ color: black ; border: 1px solid rgb(150, 150, 150);}
 
 /* botões passando o mouse em cima */
-.botão1:hover{                              background-color: rgb(30, 30, 30) ; color: white; }
-.botão2:hover,.botão3:hover{                background-color: rgb(128, 33, 72); color: white; }
-.botão4:hover,.botão5:hover{                background-color: rgb(175, 0, 0); color: white; }
-.botão6:hover,.botão7:hover,.botão8:hover{  background-color: rgb(190, 165, 19); color: white; }
+.botão1:hover{                              background-color: rgb(30, 30, 30) ;     color: white; text-decoration: underline;}
+.botão2:hover,.botão3:hover{                background-color: rgb(128, 33, 72);     color: white; text-decoration: underline}
+.botão4:hover,.botão5:hover{                background-color: rgb(175, 0, 0);       color: white; text-decoration: underline}
+.botão6:hover,.botão7:hover,.botão8:hover{  background-color: rgb(190, 165, 19);    color: white; text-decoration: underline}
 
 /***** telas menores *****/
 @media only screen and (max-width:1100px){
