@@ -125,11 +125,3 @@ a.buttonGitHub{
     }    
 
 }
-
-@media only screen and (max-width:900px){
-    body{
-        width: 700px;
-        margin: auto;
-    }
-
-}
