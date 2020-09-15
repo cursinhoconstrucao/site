@@ -58,7 +58,8 @@ b{
 }
 
 .header-right-up:hover,.header-right-down-left:hover,.header-right-down-right:hover,.subheader1:hover,.subheader2:hover,.subheader3:hover,.subheader4:hover,.subheader5:hover{
-    background-color: beige;
+    background-color: rgb(50, 50, 50);
+    color: white;
     text-decoration: underline;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -72,17 +73,14 @@ b{
 .header-right-up{
     grid-column: 4 / span 2;
     grid-row: 1;
-    margin: auto;
 }
 .header-right-down-left{
     grid-column: 4 / span 1;
     grid-row: 2;
-    margin: auto;
 }
 .header-right-down-right{
     grid-column: 5 / span 1;
     grid-row: 2;
-    margin: auto;
 }
 
 .subheader1{ grid-column: 1; grid-row: 3; }
