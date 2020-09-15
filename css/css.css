@@ -14,17 +14,6 @@ body{
     margin: auto;
 }
 
-h1,h2{
-    font-family: Verdana;
-}
-
-h1{
-    font-size: 26px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 200%;
-}
-
 h2{
     font-size: 20px;
 }
@@ -50,20 +39,22 @@ b{
     padding: 10px;
 }
 
-.header-main{
-    text-align: center;
-    padding: 20px;
-    font-family: Calibri;
+.header-main > h1{
+    padding: 10px;
     font-size: 25px;
     font-weight: 600;
+    text-align: center;
+    font-family: Calibri;
+    line-height: 100%;
 }
 
-.header-subheader{
+.header-subheader > h1{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
     text-align: center;
-    padding: 20px;
     font-family: Calibri;
-    font-size: 15px;
-    font-weight: 600;
+    line-height: 100%;
 }
 
 .header-right-up:hover,.header-right-down-left:hover,.header-right-down-right:hover,.subheader1:hover,.subheader2:hover,.subheader3:hover,.subheader4:hover,.subheader5:hover{
@@ -76,6 +67,7 @@ b{
 .header-left{
     grid-column: 1 / span 3;
     grid-row: 1 / span 2;
+    margin: auto;
 }
 .header-right-up{
     grid-column: 4 / span 2;
@@ -119,6 +111,18 @@ a.buttonGitHub{
         width: 900px;
         margin: auto;
     }
+
+    p{
+        font-size: 12px;
+    }
+
+    .header-main > h1{
+        font-size: 20px;
+    }
+    
+    .header-subheader > h1{
+        font-size: 16px;
+    }    
 
 }
 
