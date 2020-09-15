@@ -32,6 +32,10 @@ b{
     font-weight: 600;
 }
 
+#logo{
+    width: 420px;
+}
+
 /***** grid (ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) *****/
 
 .grid-container{
@@ -110,6 +114,10 @@ a.buttonGitHub{
 
 /***** telas menores *****/
 @media only screen and (max-width:1100px){   
+    #logo{
+        width: 600px;
+    }
+
     .header-left{
         grid-column: 1 / span 6;
         grid-row: 1;
