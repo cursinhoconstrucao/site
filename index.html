@@ -1,25 +1,46 @@
 <head>
-    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/celular.css">
     <title>Cursinho Popular Construção</title>
 </head>
 
 <body>
-    <div class="grid-container center">
-        <div class="header-main header-left">               <img id="logo" src="images/logoCPC.png" alt="Cursinho Popular Construção"> </div>
-        <div class="header-main header-right-up">           <h1>    <a href="">Quem<br>somos        </a>    </h1></div>
-        <div class="header-main header-right-down-left">    <h1>    <a href="">Seja<br>educador/a   </a>    </h1></div>
-        <div class="header-main header-right-down-right">   <h1>    <a href="">Estude<br>conosco    </a>    </h1></div>
-        
-        <div class="header-subheader subheader1">           <h1>   <a href=""> O que é o ENEM?      </a>    </h1></div>
-        <div class="header-subheader subheader2">           <h1>   <a href=""> Material didático    </a>    </h1></div>
-        <div class="header-subheader subheader3">           <h1>   <a href=""> Seja um doador       </a>    </h1></div>
-        <div class="header-subheader subheader4">           <h1>   <a href=""> Aprovados            </a>    </h1></div>
-        <div class="header-subheader subheader5">           <h1>   <a href=""> Atividades e fotos   </a>    </h1></div>
+  <script>
+    function toggle() {
+      var x = document.getElementsById("subheader");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      }
+      else {
+        x.style.display = "none";
+      }
+    }
+  </script>
 
-        <div class="main">
-            <p>Bem-vindas e bem-vindos ao site oficial do Cursinho Popular Construção!<br><br>Atuamos na região do Jabaquara, zona sul da cidade de São Paulo, SP, Brasil.</p>
-        </div>
-
+  <div class="grid-container center">
+    <div class="header-main header-left">               <a href="https://cursinhoconstrucao.github.io/site/"><img id="logo" src="images/logoCPC.png" alt="Cursinho Popular Construção"></a></div>
+    <div class="header-main footer">
+        <a href="https://www.instagram.com/cursinhopopularconstrucao/"><img id="icone" src="images/insta.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/CursinhoPopularConstrucao"><img id="icone" src="images/face.png" alt="Facebook"></a>
+        <a href="https://www.youtube.com/channel/UCp1nmKwuSLZQ8b0dgpuWcHw"><img id="icone" src="images/yt.png" alt="YouTube"></a>
+        <a href="https://github.com/cursinhoconstrucao"><img id="icone" src="images/github.png" alt="GitHub"></a>
     </div>
+    <div class="header-main header-right-up">           <h1>    <a href="">Quem<br>somos        </a>    </h1></div>
+    <div class="header-main header-right-down-left">    <h1>    <a href="">Seja<br>educador/a   </a>    </h1></div>
+    <div class="header-main header-right-down-right">   <h1>    <a href="">Estude<br>conosco    </a>    </h1></div>
+    <div class="header-main subheader-collapse" onclick="toggle()">☰</div>
+
+    <div id="subheader" class="header-subheader subheader1">           <h1>   <a href=""> O que é o ENEM?      </a>    </h1></div>
+    <div id="subheader" class="header-subheader subheader2">           <h1>   <a href=""> Material didático    </a>    </h1></div>
+    <div id="subheader" class="header-subheader subheader3">           <h1>   <a href=""> Seja um doador       </a>    </h1></div>
+    <div id="subheader" class="header-subheader subheader4">           <h1>   <a href=""> Aprovados            </a>    </h1></div>
+    <div id="subheader" class="header-subheader subheader5">           <h1>   <a href=""> Atividades e fotos   </a>    </h1></div>
+
+    <div class="main">
+        <p>Bem-vindas e bem-vindos ao site oficial do Cursinho Popular Construção!<br><br>Atuamos na região do Jabaquara, zona sul da cidade de São Paulo, SP, Brasil.</p>
+    </div>
+
+  </div>
     
 </body>
