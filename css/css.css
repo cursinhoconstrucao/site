@@ -33,7 +33,11 @@ b{
 }
 
 #logo{
-    width: 420px;
+    width: 450px;
+}
+
+.openbtn,.closebtn{
+    display: none;
 }
 
 /***** grid (ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) *****/
@@ -61,7 +65,7 @@ b{
     line-height: 100%;
 }
 
-.header-right-up:hover,.header-right-down-left:hover,.header-right-down-right:hover,.subheader1:hover,.subheader2:hover,.subheader3:hover,.subheader4:hover,.subheader5:hover{
+.header-main:not(.header-left):hover,.header-subheader:hover{
     background-color: rgb(50, 50, 50);
     color: white;
     text-decoration: underline;
@@ -69,23 +73,10 @@ b{
     cursor: pointer;
 }
 
-.header-left{
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 2;
-    margin: auto;
-}
-.header-right-up{
-    grid-column: 4 / span 2;
-    grid-row: 1;
-}
-.header-right-down-left{
-    grid-column: 4 / span 1;
-    grid-row: 2;
-}
-.header-right-down-right{
-    grid-column: 5 / span 1;
-    grid-row: 2;
-}
+.header-left            { grid-column: 1 / span 3; grid-row: 1 / span 2; margin: auto;  }
+.header-right-up        { grid-column: 4 / span 2; grid-row: 1;                         }
+.header-right-down-left { grid-column: 4 / span 1; grid-row: 2;                         }
+.header-right-down-right{ grid-column: 5 / span 1; grid-row: 2;                         }
 
 .subheader1{ grid-column: 1; grid-row: 3; }
 .subheader2{ grid-column: 2; grid-row: 3; }
@@ -118,8 +109,13 @@ a.buttonGitHub{
         width: 700px;
     }
 
-    .header-subheader > h1{
+    (.subheader1,.subheader2,.subheader3,.subheader4,.subheader5) > h1{
         font-size: 16px;
+        padding: 5px;
+        font-weight: 500;
+        text-align: center;
+        font-family: Calibri;
+        line-height: 100%;
     }
 
     .header-left{
@@ -140,12 +136,12 @@ a.buttonGitHub{
         grid-row: 2;
     }
     
-    .subheader1{ grid-column: 1; grid-row: 3; }
-    .subheader2{ grid-column: 1; grid-row: 4; }
-    .subheader3{ grid-column: 1; grid-row: 5; }
-    .subheader4{ grid-column: 1; grid-row: 6; }
-    .subheader5{ grid-column: 1; grid-row: 7; }
+    .subheader1{ grid-column: 1 / span 6; grid-row: 4; }
+    .subheader2{ grid-column: 1 / span 6; grid-row: 5; }
+    .subheader3{ grid-column: 1 / span 6; grid-row: 6; }
+    .subheader4{ grid-column: 1 / span 6; grid-row: 7; }
+    .subheader5{ grid-column: 1 / span 6; grid-row: 8; }
 
-    .main{ grid-column: 2 / span 5; grid-row: 3 / span 10; padding-left: 50px;}
+    .main{ grid-column: 1 / span 6; grid-row: 3; padding-left: 50px;}
 
 }
