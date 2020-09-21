@@ -12,7 +12,7 @@
 
   <body>
     <div class="container">
-      <div class="row">
+      <div id="header" class="row">
 
         <div class="col-sm-6 center">
           <a href="https://cursinhoconstrucao.github.io/site/"><img id="logo" src="images/logoCPC.png" alt="Cursinho Popular Construção"></a>
@@ -27,25 +27,28 @@
       </div>
       
       <div class="panel-group" id="accordion">
-        <div id="header" class="row">
-          <button type="button" class="col-sm-3 center btn btn-lg btn-default center"><h3> <a data-toggle="collapse" data-parent="#accordion" href="#QuemSomos">Quem somos</a> </h3></button>
-          <button type="button" class="col-sm-4 center btn btn-lg btn-default center"><h3> <a data-toggle="collapse" data-parent="#accordion" href="#SejaEducador">Seja educador/a</a> </h3></button>
-          <button type="button" class="col-sm-4 center btn btn-lg btn-default center"><h3> <a data-toggle="collapse" data-parent="#accordion" href="#EstudeConosco">Estude conosco</a> </h3></button>
-          <button type="button" class="col-sm-1 center btn btn-xs btn-info center" data-toggle="collapse" data-target="#subheader"><h3> + </h3></button>
+        <div class="panel-heading">
+          <div id="menu" class="row">
+            <button type="button" aria-expanded="false" class="col-sm-3 center btn btn-lg btn-default center"><h3> <a data-toggle="collapse" data-parent="#accordion" href="#QuemSomos"> <strong>Quem somos</strong></a> </h3></button>
+            <button type="button" aria-expanded="false" class="col-sm-3 center btn btn-lg btn-default center"><h3> <a data-toggle="collapse" data-parent="#accordion" href="#SejaEducador"><strong>Seja educador/a</strong></a> </h3></button>
+            <button type="button" aria-expanded="false" class="col-sm-3 center btn btn-lg btn-default center"><h3> <a data-toggle="collapse" data-parent="#accordion" href="#EstudeConosco"><strong>Estude conosco</strong></a> </h3></button>
+            <button type="button" aria-expanded="false" class="col-sm-1 btn btn-xs btn-info center" data-toggle="collapse" data-target="#submenu"><h3> + </h3></button>
+          </div>
+  
+          <div id="submenu" class="row collapse">
+            <button type="button" class="col-sm-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#ENEM"><b>O que é o ENEM?</b></a></h4> </button>
+            <button type="button" class="col-sm-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#Material"><b>Material didático</b></a></h4> </button>
+            <button type="button" class="col-sm-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#Doação"><b>Seja um doador</b></a></h4> </button>
+            <button type="button" class="col-sm-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#Aprovados"><b>Aprovados</b></a></h4> </button>
+            <button type="button" class="col-sm-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#Atividades-e-fotos"><b>Atividades e fotos</b></a></h4> </button>
+          </div>
         </div>
 
-        <div id="subheader" class="row collapse">
-          <button type="button" class="col-sm-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#ENEM">O que é o ENEM?</a></h4> </button>
-          <button type="button" class="col-sm-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#Material">Material didático</a></h4> </button>
-          <button type="button" class="col-sm-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#Doação">Seja um doador</a></h4> </button>
-          <button type="button" class="col-sm-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#Aprovados">Aprovados</a></h4> </button>
-          <button type="button" class="col-sm-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#Atividades-e-fotos">Atividades e fotos</a></h4> </button>
-        </div>
-
+        <hr><hr>
         
         <div class="panel panel-default">
           <div id="Intro" class="panel-collapse collapse in" data-parent="#accordion">
-            <div class="panel-body">
+            <div class="panel-body justified">
               <p>Bem-vindas e bem-vindos ao site oficial do Cursinho Popular Construção!</p>
               <p>Atuamos na região do Jabaquara, zona sul da cidade de São Paulo, SP, Brasil.</p>
             </div>
@@ -54,7 +57,7 @@
 
         <div class="panel panel-default">
           <div id="QuemSomos" class="panel-collapse collapse" data-parent="#accordion">
-            <div class="panel-body">
+            <div class="panel-body justified">
               Quem somos
             </div>
           </div>
@@ -62,7 +65,7 @@
 
         <div class="panel panel-default">
           <div id="SejaEducador" class="panel-collapse collapse" data-parent="#accordion">
-            <div class="panel-body">
+            <div class="panel-body justified">
               Seja educador.
             </div>
           </div>
@@ -70,7 +73,7 @@
 
         <div class="panel panel-default">
           <div id="EstudeConosco" class="panel-collapse collapse" data-parent="#accordion">
-            <div class="panel-body">
+            <div class="panel-body justified">
               Estude conosco.
             </div>
           </div>
@@ -78,7 +81,7 @@
 
         <div class="panel panel-default">
           <div id="ENEM" class="panel-collapse collapse" data-parent="#accordion">
-            <div class="panel-body">
+            <div class="panel-body justified">
               O que é o ENEM.
             </div>
           </div>
@@ -86,7 +89,7 @@
 
         <div class="panel panel-default">
           <div id="Material" class="panel-collapse collapse" data-parent="#accordion">
-            <div class="panel-body">
+            <div class="panel-body justified">
               Material didático
             </div>
           </div>
@@ -94,7 +97,7 @@
 
         <div class="panel panel-default">
           <div id="Doação" class="panel-collapse collapse" data-parent="#accordion">
-            <div class="panel-body">
+            <div class="panel-body justified">
               Seja doador.
             </div>
           </div>
@@ -102,7 +105,7 @@
 
         <div class="panel panel-default">
           <div id="Aprovados" class="panel-collapse collapse" data-parent="#accordion">
-            <div class="panel-body">
+            <div class="panel-body justified">
               Aprovados
             </div>
           </div>
@@ -110,7 +113,7 @@
 
         <div class="panel panel-default">
           <div id="Atividades-e-fotos" class="panel-collapse collapse" data-parent="#accordion">
-            <div class="panel-body">
+            <div class="panel-body justified">
               Atividades e fotos
             </div>
           </div>
