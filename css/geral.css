@@ -8,10 +8,20 @@
     text-align-last: center;
 }
 
+hr{
+    height: 8px;
+    background-image: -moz-linear-gradient(360deg,purple,rgb(223, 171, 0));
+}
+
+#submenu{
+    padding-top: 20px;
+}
+
 /* mudanças do Bootstrap */ 
 .panel-body{
     font-family: Calibri;
     font-size: 20px;
+    margin: 0 auto;
 }
 
 a{
