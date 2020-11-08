@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-BR">
   <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">  
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
       <link rel="stylesheet" href="css/geral.css">
 
@@ -9,6 +9,17 @@
   </head>
 
   <body>
+    <script>
+      $("#accordion").on("shown.bs.collapse", function () {
+          var myEl = $(this).find('.collapse');
+
+          $('html, body').animate({
+              scrollTop: $(myEl).offset().top
+          }, 500);
+      });
+    </script>
+
+
     <div class="container">
       <div id="header" class="row">
 
@@ -27,14 +38,15 @@
       <div class="panel-group" id="accordion">
         <div class="panel-heading">
           <div id="menu" class="row center">
-            <button type="button" class="col-lg-3 col-sm-3 col-xs-1 center btn btn-lg btn-default center"><h4> <a data-toggle="collapse" data-parent="#accordion" href="#QuemSomos"> <strong>Quem somos</strong></a> </h3></button>
-            <button type="button" class="col-lg-3 col-sm-3 col-xs-1 center btn btn-lg btn-default center"><h4> <a data-toggle="collapse" data-parent="#accordion" href="#SejaEducador"><strong>Seja educador/a</strong></a> </h3></button>
-            <button type="button" class="col-lg-3 col-sm-3 col-xs-1 center btn btn-lg btn-default center"><h4> <a data-toggle="collapse" data-parent="#accordion" href="#EstudeConosco"><strong>Estude conosco</strong></a> </h3></button>
-            <button type="button" class="col-lg-2 col-sm-1 col-xs-1 btn btn-xs btn-info center" data-toggle="collapse" data-target="#submenu"><h3> + </h3></button>
+            <button type="button" class="col-lg-3 col-sm-2 col-xs-1 center btn btn-lg btn-default center"><h4> <a data-toggle="collapse" data-parent="#accordion" href="#QuemSomos"> <strong>Quem somos / como funcionamos</strong></a> </h4></button>
+            <button type="button" class="col-lg-2 col-sm-2 col-xs-1 center btn btn-lg btn-basic center"><h4> <a data-toggle="collapse" data-parent="#accordion" href="#FAQ"><strong>Perguntas frequentes</strong></a> </h4></button>
+            <button type="button" class="col-lg-2 col-sm-2 col-xs-1 center btn btn-lg btn-default center"><h4> <a data-toggle="collapse" data-parent="#accordion" href="#EstudeConosco"><strong>Estude conosco</strong></a> </h4></button>
+            <button type="button" class="col-lg-2 col-sm-2 col-xs-1 center btn btn-lg btn-default center"><h4> <a data-toggle="collapse" data-parent="#accordion" href="#SejaEducador"><strong>Seja educador/a</strong></a> </h3></button>
+            <button type="button" class="col-lg-1 col-sm-1 col-xs-1 btn btn-xs btn-info center" data-toggle="collapse" data-target="#submenu"><h3> + </h3></button>
           </div>
-  
+
           <div id="submenu" class="row collapse">
-            <button type="button" class="col-lg-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#ENEM"><b>O que é o ENEM?</b></a></h4> </button>
+            <button type="button" class="col-lg-2 col-sm-2 col-xs-1 center btn btn-lg btn-default center"><h5> <a data-toggle="collapse" data-parent="#accordion" href="#AcessandoUni"><strong>Acessando a universidade</strong></a> </h4></button>
             <button type="button" class="col-lg-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#Material"><b>Material didático</b></a></h4> </button>
             <button type="button" class="col-lg-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#Doação"><b>Seja um doador</b></a></h4> </button>
             <button type="button" class="col-lg-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#Aprovados"><b>Aprovados</b></a></h4> </button>
@@ -62,9 +74,17 @@
         </div>
 
         <div class="panel panel-default">
-          <div id="SejaEducador" class="panel-collapse collapse" data-parent="#accordion">
+          <div id="ComoFuncionamos" class="panel-collapse collapse" data-parent="#accordion">
             <div class="panel-body justified">
-              Seja educador.
+              Como funcionamos
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div id="FAQ" class="panel-collapse collapse" data-parent="#accordion">
+            <div class="panel-body justified">
+              FAQ
             </div>
           </div>
         </div>
@@ -76,6 +96,29 @@
             </div>
           </div>
         </div>
+
+        <div class="panel panel-default">
+          <div id="AcessandoUni" class="panel-collapse collapse" data-parent="#accordion">
+            <div class="panel-body justified">
+              Acessando a universidade
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+        <div class="panel panel-default">
+          <div id="SejaEducador" class="panel-collapse collapse" data-parent="#accordion">
+            <div class="panel-body justified">
+              Seja educador.
+            </div>
+          </div>
+        </div>
+
+
 
         <div class="panel panel-default">
           <div id="ENEM" class="panel-collapse collapse" data-parent="#accordion">
