@@ -1,8 +1,12 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     /* Pequenos celulares: */
     
     #logo{
         width: 350px;
+    }
+
+    #icone{
+        width: 40px;
     }
 
     h4{
