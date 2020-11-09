@@ -1,3 +1,26 @@
+@media only screen and (max-width: 500px) {
+    /* Pequenos celulares: */
+    
+    #logo{
+        width: 350px;
+    }
+
+    h4{
+        font-size: 18px;
+    }
+
+    h5{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+  /* For desktop: */
+  .container{
+    width: 950px;
+  }
+}
+
 .center{
     margin: auto;
     text-align: center;
@@ -41,6 +64,7 @@ a:hover{
 
 h1,h2,h3,h4,h5{
     font-family: Calibri;
+    line-height: 105%;
 }
 
 /* resto */
