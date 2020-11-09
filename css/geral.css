@@ -2,19 +2,11 @@
     /* Pequenos celulares: */
     
     #logo{
-        width: 350px;
+        width: 250px;
     }
 
     #icone{
         width: 40px;
-    }
-
-    h4{
-        font-size: 18px;
-    }
-
-    h5{
-        font-size: 16px;
     }
 }
 
