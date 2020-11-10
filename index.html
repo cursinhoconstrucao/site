@@ -27,151 +27,103 @@
           <a href="https://github.com/cursinhoconstrucao" class="btn btn-default" role="button"><img id="icone" src="images/github.png" alt="GitHub"></a>
         </div>
       </div>
-      
-      <div class="panel-group" id="accordion">
-        <div class="panel-heading">
+
+      <div class="panel-group">
+        <div id="subheader" class="row nav nav-pills">
           <div id="menu" class="row center">
-            <button type="button" class="col-lg-3 col-sm-2 col-xs-1 center btn btn-lg btn-default"><h4> <a data-toggle="collapse" data-parent="#accordion" href="#QuemSomos"> <strong>Quem somos / como funcionamos</strong></a> </h4></button>
+            <button type="button" class="nav-item col-lg-3 col-sm-2 col-xs-1 center btn btn-lg active">
+              <h4><a id="QuemSomos-tab" href="#QuemSomos" data-toggle="pill"><strong>Quem somos / como funcionamos</strong></a></h4>
+            </button>
+  
             <span class="btn-separator"></span>
-            <button type="button" class="col-lg-3 col-sm-2 col-xs-1 center btn btn-lg btn-default"><h4> <a data-toggle="collapse" data-parent="#accordion" href="#FAQ"><strong>Perguntas frequentes</strong></a> </h4></button>
+  
+            <button type="button" class="nav-item col-lg-3 col-sm-2 col-xs-1 center btn btn-lg">
+              <h4><a id="FAQ-tab" href="#FAQ" data-toggle="pill"><strong>Perguntas frequentes</strong></a></h4>
+            </button>
+  
             <span class="btn-separator"></span>
-            <button type="button" class="col-lg-2 col-sm-2 col-xs-1 center btn btn-lg btn-default"><h4> <a data-toggle="collapse" data-parent="#accordion" href="#EstudeConosco"><strong>Estude conosco</strong></a> </h4></button>
+  
+            <button type="button" class="nav-item col-lg-2 col-sm-2 col-xs-1 center btn btn-lg">
+              <h4><a id="EstudeConosco-tab" href="#EstudeConosco" data-toggle="pill"><strong>Estude conosco</strong></a></h4>
+            </button>
+            
             <span class="btn-separator"></span>
-            <button type="button" class="col-lg-2 col-sm-2 col-xs-1 center btn btn-lg btn-default"><h4> <a data-toggle="collapse" data-parent="#accordion" href="#SejaEducador"><strong>Seja educador/a</strong></a> </h3></button>
-            <button type="button" class="col-lg-1 col-sm-1 col-xs-1 center btn btn-lg btn-info" data-toggle="collapse" data-target="#submenu"><h3> + </h3></button>
+            
+            <button type="button" class="nav-item col-lg-2 col-sm-2 col-xs-1 center btn btn-lg">
+              <h4><a id="SejaEducador-tab" href="#SejaEducador" data-toggle="pill"><strong>Seja educador/a</strong></a></h4>
+            </button>
+            
+            <button type="button" class="nav-item col-lg-1 col-sm-1 col-xs-1 center btn btn-lg btn-info" data-toggle="collapse" data-target="#submenu"><h3> + </h3></button>
+  
           </div>
 
-          <div id="submenu" class="row collapse">
-            <button type="button" class="col-lg-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#AcessandoUni"><b>Acessando a universidade</b></a></h5></button>
+
+          <div id="submenu" class="row nav nav-pills center collapse">
+            <button type="button" class="nav-item col-lg-2 center btn center"><h5><a id="" data-toggle="pill" href="#AcessandoUni"><b>Acessando a universidade</b></a></h5></button>
+
             <span class="btn-separator"></span>
-            <button type="button" class="col-lg-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#Material"><b>Material didático</b></a></h5> </button>
+            
+            <button type="button" class="nav-item col-lg-2 center btn center"><h5><a data-toggle="pill" href="#Material"><b>Material didático</b></a></h5> </button>
+
             <span class="btn-separator"></span>
-            <button type="button" class="col-lg-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#Doação"><b>Doe para o cursinho</b></a></h5> </button>
+
+            <button type="button" class="nav-item col-lg-2 center btn center"><h5><a data-toggle="pill" href="#Doação"><b>Doe para o cursinho</b></a></h5> </button>
+
             <span class="btn-separator"></span>
-            <button type="button" class="col-lg-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#Aprovados"><b>Aprovados<br></b></a></h5> </button>
+
+            <button type="button" class="nav-item col-lg-2 center btn center"><h5><a data-toggle="pill" href="#Aprovados"><b>Aprovados<br></b></a></h5> </button>
+
             <span class="btn-separator"></span>
-            <button type="button" class="col-lg-2 center btn btn-default center"><h5><a data-toggle="collapse" data-parent="#accordion" href="#Atividades-e-fotos"><b>Atividades e fotos</b></a></h5> </button>
+
+            <button type="button" class="nav-item col-lg-2 center btn center"><h5><a data-toggle="pill" href="#Atividades-e-fotos"><b>Atividades e fotos</b></a></h5> </button>
+
           </div>
+
         </div>
 
-        <hr>
+      </div>
+
+      <hr>
+
+
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active center justified" id="QuemSomos" role="tabpanel" aria-labelledby="QuemSomos-tab">
+          <p>Bem-vindas e bem-vindos ao site oficial do Cursinho Popular Construção!</p>
+          <p>Atuamos na região do Jabaquara, zona sul da cidade de São Paulo, SP, Brasil.</p>
+
+          quem somos
+        </div>
         
-        <div class="panel panel-default">
-          <div id="Intro" class="panel-collapse collapse in" data-parent="#accordion">
-            <div class="panel-body justified">
-              <p>Bem-vindas e bem-vindos ao site oficial do Cursinho Popular Construção!</p>
-              <p>Atuamos na região do Jabaquara, zona sul da cidade de São Paulo, SP, Brasil.</p>
-            </div>
-          </div>
+        <div class="tab-pane fade center justified" id="FAQ" role="tabpanel" aria-labelledby="FAQ-tab">
+          Perguntas frequentes
+        </div>
+        
+        <div class="tab-pane fade center justified" id="EstudeConosco" role="tabpanel" aria-labelledby="EstudeConosco-tab">
+          Estude conosco
         </div>
 
-        <div class="panel panel-default">
-          <div id="QuemSomos" class="panel-collapse collapse" data-parent="#accordion">
-            <div class="panel-body justified">
-              Quem somos
-            </div>
-          </div>
+        <div class="tab-pane fade center justified" id="SejaEducador" role="tabpanel" aria-labelledby="SejaEducador-tab">
+          Estude conosco
         </div>
-
-        <div class="panel panel-default">
-          <div id="FAQ" class="panel-collapse collapse" data-parent="#accordion">
-            <div class="panel-body justified">
-              FAQ
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div id="EstudeConosco" class="panel-collapse collapse" data-parent="#accordion">
-            <div class="panel-body justified">
-              Estude conosco.
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div id="SejaEducador" class="panel-collapse collapse" data-parent="#accordion">
-            <div class="panel-body justified">
-              Seja educador.
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div id="AcessandoUni" class="panel-collapse collapse" data-parent="#accordion">
-            <div class="panel-body justified">
-              Acessando a universidade
-            </div>
-          </div>
-        </div>
-
-
-        <div class="panel panel-default">
-          <div id="ENEM" class="panel-collapse collapse" data-parent="#accordion">
-            <div class="panel-body justified">
-              O que é o ENEM.
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div id="Material" class="panel-collapse collapse" data-parent="#accordion">
-            <div class="panel-body justified">
-              Material didático
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div id="Doação" class="panel-collapse collapse" data-parent="#accordion">
-            <div class="panel-body justified">
-              Seja doador.
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div id="Aprovados" class="panel-collapse collapse" data-parent="#accordion">
-            <div class="panel-body justified">
-              Aprovados
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div id="Atividades-e-fotos" class="panel-collapse collapse" data-parent="#accordion">
-            <div class="panel-body justified">
-              Atividades e fotos
-            </div>
-          </div>
-        </div>
-
 
 
 
       </div>
 
     </div>
-      
-
-    </div>
-    
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script>
-      $(function () {
-    $('#accordion').on('shown.bs.collapse', function (e) {
-        var offset = $('.panel.panel-default > .panel-collapse.in').offset();
-        if(offset) {
-            $('html,body').animate({
-                scrollTop: $('.panel-title a').offset().top -20
-            }, 500); 
-        }
-    }); 
-});
+      $(".nav-item").click(function(){
+            $(".nav-item").removeClass("active");
+            $(this).addClass("active");
+      });
+      $(".nav-item > a").click(function(){
+            $(this).parent().addClass("active");
+      });
     </script>
   </body>
 </html>

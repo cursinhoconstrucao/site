@@ -45,13 +45,12 @@ hr{
     display: block;
     background: #d8d8d8;
     margin: 0 5px;
-    vertical-align: middle;
     height: 100%;
     width: 1px;
 }
 
 /* mudanças do Bootstrap */ 
-.panel-body{
+.tab-content{
     font-family: Calibri;
     font-size: 20px;
     margin: 0 auto;
@@ -66,13 +65,13 @@ a{
     text-decoration: inherit;
 }
 
-button:hover{
+button:active,button:hover,.nav-item.active,.nav-item:hover,.nav-item>a:hover{
     background-color: black;
     color: white;
 }
 
-a:hover{
-    color: white;
+.nav-item{
+    padding: 2px;
 }
 
 
