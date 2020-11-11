@@ -1,34 +1,17 @@
-@media only screen and (max-width: 768px) {
-    /* Pequenos celulares: */
-    #logo{
-        width: 250px;
-    }
-
-    #icone{
-        width: 40px;
-    }
-
-    .btn-info{
-        width: 50%;
-    }
-}
-
-@media only screen and (min-width: 900px) {
-  /* For desktop: */
-  .container{
-    width: 950px;
-  }
-
-}
-
 .center{
     margin: auto;
     text-align: center;
 }
 
+.container > *{
+    border: 1px #d8d8d8;
+    border-style: none solid none solid;
+    padding: 10px;
+}
+
 .justified{
     text-align: justify;
-    text-align-last: center;
+    text-align-last: left;
 }
 
 hr{
@@ -36,33 +19,45 @@ hr{
     background-image: -moz-linear-gradient(360deg,purple,rgb(223, 171, 0));
 }
 
+.conteudo{
+    padding: 10px;
+    font-family: Calibri;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
 #submenu{
     padding-top: 20px;
+}
+
+.btn-info{
+    height: 100%;
 }
 
 .btn-separator:after {
     content: ' ';
     display: block;
     background: #d8d8d8;
-    margin: 0 5px;
     height: 100%;
     width: 1px;
 }
 
-/* mudanças do Bootstrap */ 
-.tab-content{
-    font-family: Calibri;
-    font-size: 20px;
-    margin: 0 auto;
+#botao-voltar-topo{
+    display: none;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    height: 50px;
+    z-index: 99;
+    cursor: pointer;
+    padding: 10px;
+    font-size: large;
 }
 
+/* mudanças do Bootstrap */ 
 .panel-group{
     width: 100%;
-}
-
-a{
-    color: inherit;
-    text-decoration: inherit;
 }
 
 button:active,button:hover,.nav-item.active,.nav-item:hover,.nav-item>a:hover{
@@ -70,14 +65,22 @@ button:active,button:hover,.nav-item.active,.nav-item:hover,.nav-item>a:hover{
     color: white;
 }
 
-.nav-item{
-    padding: 2px;
+.dropdown-menu{
+    width: fit-content;
 }
 
+a{
+    color: inherit;
+    text-decoration: none;
+}
 
 h1,h2,h3,h4,h5{
     font-family: Calibri;
     line-height: 105%;
+}
+
+h5{
+    font-size: 16px;
 }
 
 /* resto */
@@ -88,4 +91,31 @@ h1,h2,h3,h4,h5{
 #icone{
     width: 50px;
     display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Pequenos celulares */
+    #logo{
+        width: 350px;
+    }
+
+    #icone{
+        width: 40px;
+    }
+
+    #botão-mais{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+  /* Computadores */
+  .container{
+    width: 950px;
+  }
+
+  #botao-voltar-topo{
+      right: 22%;
+  }
+
 }
