@@ -82,7 +82,7 @@ hr{
     width: 100%;
 }
 
-button:active,button:hover,.nav-item.active,.nav-item:hover,.nav-item>a:hover,.btn-block:hover{
+button:active,button:hover,.nav-item.active,.nav-item:hover,.nav-item>a:hover,.btn-block:hover,.dropdown-toggle:hover{
     background-color: black;
     color: white;
 }
