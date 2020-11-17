@@ -15,8 +15,7 @@
 }
 
 hr{
-    height: 8px;
-    background-image: -moz-linear-gradient(360deg,purple,rgb(223, 171, 0));
+
 }
 
 .conteudo{
@@ -55,12 +54,35 @@ hr{
     font-size: large;
 }
 
+/* cores das seções */
+* > .accordion > *{
+    /* accordion usado em classe pra que todos os acordeons, independentemente do ID, recebam a cor da seção de onde estão, aí não precisa fazer ID por ID herdar as cores */
+    background-color: inherit;
+    border: 0.5px solid;
+    color: inherit;
+}
+
+#FAQ,#Aprovados,#Atividades-e-fotos{
+    background-color: rgba(99, 0, 42, 0.4);
+    color: rgb(49, 0, 22);
+}
+
+#EstudeConosco,#AcessandoUni,#Material{
+    background-color: rgba(171, 0, 36, 0.5);
+    color: rgb(40, 0, 16);
+}
+
+#SejaEducador,#Doação{
+    background-color: rgba(171, 104, 0, 0.5);
+    color: rgb(40, 0, 16);
+}
+
 /* mudanças do Bootstrap */ 
 .panel-group{
     width: 100%;
 }
 
-button:active,button:hover,.nav-item.active,.nav-item:hover,.nav-item>a:hover{
+button:active,button:hover,.nav-item.active,.nav-item:hover,.nav-item>a:hover,.btn-block:hover{
     background-color: black;
     color: white;
 }
@@ -74,13 +96,26 @@ a{
     text-decoration: none;
 }
 
-h1,h2,h3,h4,h5{
+h1,h2,h3,p{
     font-family: Calibri;
-    line-height: 105%;
+    line-height: 135%;
 }
 
-h5{
-    font-size: 16px;
+h1{
+    font-size: 1.5rem;
+}
+
+h2{
+    font-size: 1rem;
+}
+
+h3{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 0.9rem;
 }
 
 /* resto */
@@ -115,7 +150,7 @@ h5{
   }
 
   #botao-voltar-topo{
-      right: 22%;
+    right: 22%;
   }
 
 }
