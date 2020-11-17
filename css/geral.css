@@ -14,10 +14,6 @@
     text-align-last: left;
 }
 
-hr{
-
-}
-
 .conteudo{
     padding: 10px;
     font-family: Calibri;
@@ -62,17 +58,17 @@ hr{
     color: inherit;
 }
 
-#FAQ,#Aprovados,#Atividades-e-fotos{
-    background-color: rgba(99, 0, 42, 0.4);
-    color: rgb(49, 0, 22);
+#EstudeConosco,#AcessandoUni,#Material{
+    background-color: rgba(99, 0, 82, 0.4);
+    color: rgb(49, 0, 42);
 }
 
-#EstudeConosco,#AcessandoUni,#Material{
+#SejaEducador,#Doação{
     background-color: rgba(171, 0, 36, 0.5);
     color: rgb(40, 0, 16);
 }
 
-#SejaEducador,#Doação{
+#FAQ,#Aprovados,#Atividades-e-fotos{
     background-color: rgba(171, 104, 0, 0.5);
     color: rgb(40, 0, 16);
 }
@@ -124,7 +120,7 @@ p{
 }
 
 #icone{
-    width: 50px;
+    width: 45px;
     display: inline-block;
 }
 
