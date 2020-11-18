@@ -7,10 +7,18 @@
     scroll-behavior: smooth;
 }
 
+.container{
+    background-color: rgb(250, 250, 250);
+    background-color: white;
+}
+
 .container > *{
     border: 1px #d8d8d8;
     border-style: none solid none solid;
-    padding: 10px;
+}
+
+.container > #conteúdo{
+    padding: 0px;
 }
 
 .justified{
@@ -19,7 +27,7 @@
 }
 
 .conteudo{
-    padding: 10px;
+    padding: 20px;
     font-family: Calibri;
     font-weight: 300;
     font-size: 18px;
@@ -31,16 +39,8 @@
     width: 80%;
 }
 
-#submenu{
-    padding-top: 20px;
-}
-
-.btn-info{
-    height: 100%;
-}
-
 .btn-separator:after {
-    content: ' ';
+    content: '';
     display: block;
     background: #d8d8d8;
     height: 100%;
@@ -67,17 +67,17 @@
     color: inherit;
 }
 
-#EstudeConosco,#AcessandoUni,#Material{
+#EspaçoEstudante{
     background-color: rgba(99, 0, 82, 0.4);
     color: rgb(49, 0, 42);
 }
 
-#SejaEducador,#Doação{
+#Colabore{
     background-color: rgba(171, 0, 36, 0.5);
     color: rgb(40, 0, 16);
 }
 
-#FAQ,#Aprovados,#Atividades-e-fotos{
+#FAQ{
     background-color: rgba(171, 104, 0, 0.5);
     color: rgb(40, 0, 16);
 }
@@ -85,6 +85,10 @@
 /* mudanças do Bootstrap */ 
 .panel-group{
     width: 100%;
+}
+
+.btn{
+    margin: 0;
 }
 
 button:active,button:hover,.nav-item.active,.nav-item:hover,.nav-item>a:hover,.btn-block:hover,.dropdown-toggle:hover{
@@ -106,8 +110,12 @@ h1,h2,h3,p{
     line-height: 135%;
 }
 
+h1,h2{
+    font-weight: 600;
+}
+
 h1{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 h2{
@@ -158,6 +166,10 @@ p{
 
     .PC{
         display: none;
+    }
+
+    h1{
+        font-size: 1.5rem;
     }
 }
 
