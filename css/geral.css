@@ -26,6 +26,11 @@
     margin: 0 auto;
 }
 
+.image{
+    padding: 10px;
+    width: 80%;
+}
+
 #submenu{
     padding-top: 20px;
 }
@@ -128,6 +133,10 @@ p{
     display: inline-block;
 }
 
+.celular{
+    display: none;
+}
+
 @media only screen and (max-width: 768px) {
     /* Pequenos celulares */
     #logo{
@@ -140,6 +149,15 @@ p{
 
     #botão-mais{
         width: 50%;
+    }
+
+    .celular{
+        width: 100%;
+        display: inline;
+    }
+
+    .PC{
+        display: none;
     }
 }
 
