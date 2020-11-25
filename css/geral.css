@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #conteúdo{
     scroll-behavior: smooth;
 }
@@ -50,20 +54,21 @@
     color: inherit;
 }
 
-#EspaçoEstudante{
+#QuemSomos,#FAQ{
     background-color: rgba(99, 0, 82, 0.4);
     color: rgb(49, 0, 42);
 }
 
-#Colabore{
+#EspaçoEstudante{
     background-color: rgba(171, 0, 36, 0.5);
     color: rgb(40, 0, 16);
 }
 
-#FAQ{
+#Colabore{
     background-color: rgba(171, 104, 0, 0.5);
     color: rgb(40, 0, 16);
 }
+
 
 /* mudanças do Bootstrap */ 
 .panel-group{
@@ -92,8 +97,32 @@ button:active,button:hover,.nav-item.active,.nav-item:hover,.nav-item>a:hover,.b
     padding: 5px;
 }
 
+
 /* TEXTO */
+/*** diagramação ***/
+.justified:not(h1){
+    text-align: justify;
+    text-align-last: center;
+}
+
+.container > #conteúdo{
+    padding: 0px;
+}
+
+.conteúdo{
+    padding: 20px;
+    font-family: Calibri;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
 /*** fontes ***/
+@font-face{
+    font-family: Comfortaa;
+    src: url(./comfortaa-variablefont_wght-webfont.woff2);
+}
+
 a:not(.card-body > a){
     color: inherit;
     text-decoration: none;
@@ -108,14 +137,6 @@ h1,h2,h3,h4,p{
 
 h1,h2,h3,h4{ font-weight: 600;}
 
-.conteúdo > h1, .conteúdo > h2,.conteúdo > h3{
-    margin: 20px 0;
-}
-
-.conteúdo > h1{
-    font-size: 1.5rem;
-}
-
 h1{ 
     font-size: 1.2rem;
 }
@@ -128,26 +149,26 @@ p,li{
     font-size: 0.9rem;
 }
 
+.conteúdo > h1, .conteúdo > h2,.conteúdo > h3{
+    margin: 20px 0;
+}
+
+.conteúdo > h1{
+    font-family: Comfortaa;
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+.conteúdo > h2{
+    font-size: 1.4rem;
+}
+
+.conteúdo > h3{
+    font-size: 1.1rem;
+}
+
 .card-header > * > h2,.card-header > * > h3,.card-header > * > h4{
-    text-align: left;
-}
-
-/*** diagramação ***/
-.justified{
-    text-align: justify;
-    text-align-last: left;
-}
-
-.container > #conteúdo{
-    padding: 0px;
-}
-
-.conteúdo{
-    padding: 20px;
-    font-family: Calibri;
-    font-weight: 300;
-    font-size: 18px;
-    margin: 0 auto;
+    text-align: center;
 }
 
 /* resto */
