@@ -17,23 +17,6 @@
     border-style: none solid none solid;
 }
 
-.container > #conteúdo{
-    padding: 0px;
-}
-
-.justified{
-    text-align: justify;
-    text-align-last: left;
-}
-
-.conteudo{
-    padding: 20px;
-    font-family: Calibri;
-    font-weight: 300;
-    font-size: 18px;
-    margin: 0 auto;
-}
-
 .image{
     padding: 10px;
     width: 80%;
@@ -98,37 +81,73 @@ button:active,button:hover,.nav-item.active,.nav-item:hover,.nav-item>a:hover,.b
 
 .dropdown-menu{
     width: fit-content;
+    background-color: rgb(236, 236, 236);
 }
 
-a{
+.dropdown-menu > a{
+    text-align: right;
+}
+
+.card-header{
+    padding: 5px;
+}
+
+/* TEXTO */
+/*** fontes ***/
+a:not(.card-body > a){
     color: inherit;
     text-decoration: none;
 }
 
-h1,h2,h3,p{
+b{ font-weight: 600; }
+
+h1,h2,h3,h4,p{ 
     font-family: Calibri;
     line-height: 135%;
 }
 
-h1,h2{
-    font-weight: 600;
+h1,h2,h3,h4{ font-weight: 600;}
+
+.conteúdo > h1, .conteúdo > h2,.conteúdo > h3{
+    margin: 20px 0;
 }
 
-h1{
+.conteúdo > h1{
+    font-size: 1.5rem;
+}
+
+h1{ 
     font-size: 1.2rem;
 }
 
-h2{
-    font-size: 1rem;
-}
+h2,h3,h4{ font-size: 1rem;}
 
-h3{
-    font-size: 1rem;
-    font-weight: 600;
-}
+h4{ text-decoration: underline; }
 
-p{
+p,li{
     font-size: 0.9rem;
+}
+
+.card-header > * > h2,.card-header > * > h3,.card-header > * > h4{
+    text-align: left;
+}
+
+/*** diagramação ***/
+.justified{
+    text-align: justify;
+    text-align-last: left;
+}
+
+.container > #conteúdo{
+    padding: 0px;
+}
+
+.conteúdo{
+    padding: 20px;
+    font-family: Calibri;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0 auto;
 }
 
 /* resto */
@@ -181,6 +200,10 @@ p{
 
   #botao-voltar-topo{
     right: 22%;
+  }
+
+  .conteúdo{
+    padding: 35px;
   }
 
 }
