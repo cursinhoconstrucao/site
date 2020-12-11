@@ -509,11 +509,11 @@
                 <div id="collapse31" class="collapse" aria-labelledby="item31" data-parent="#accordion3">
                   <div class="card-body">
                     <p>
-                      O Enem, como é conhecido o Exame Nacional do Ensino Médio, é um método avaliativo e processo seletivo composto por dois dias de prova. Atualmente, ele é a principal forma  de ingresso no Ensino Superior brasileiro, sendo usado principalmente para acesso às universidades públicas através do <b>SISU</b>. Pode participar do Enem qualquer brasileiro ou estrangeiro registrado que deseje fazer a prova.
+                      O Enem, como é conhecido o <b>Exame Nacional do Ensino Médio</b>, é um processo seletivo composto por dois dias de prova. Atualmente, ele é a principal forma  de ingresso no Ensino Superior brasileiro, sendo usado principalmente para acesso às universidades públicas através do <b>SISU</b>. Pode participar do Enem qualquer brasileiro ou estrangeiro registrado que deseje fazer a prova.
                     </p>
 
                     <p>
-                      Além de se estabelecer como um vestibular moderno, o Enem também é parte do processo seletivo do <b>FIES</b>, para aquisição de financiamento estudantil; do <b>ProUni</b>, para oferta de bolsas de estudo parciais e integrais; e do Sisutec, para ingresso em cursos técnicos.
+                      O Enem também é parte do processo seletivo do <b>ProUni</b>, para oferta de bolsas de estudo parciais e integrais; do <b>FIES</b>, para aquisição de financiamento estudantil; e do <b>Sisutec</b>, para ingresso em cursos técnicos.
                     </p>
 
                     <p>
@@ -564,6 +564,9 @@
                 <div id="collapse33" class="collapse" aria-labelledby="item33" data-parent="#accordion3">
                   <div class="card-body">
                     <p>
+                      Todas as informações sobre o exame e suas etapas podem ser acompanhadas pelo <a href="https://play.google.com/store/apps/details?id=br.gov.inep.inepenem&hl=pt_BR">aplicativo oficial do Enem</a>.
+                    </p>
+                    <p>
                       De forma geral, o Enem segue um calendário semelhante ano após ano.
                     </p>
 
@@ -585,10 +588,6 @@
 
                     <p>
                       Após a divulgação do resultado do Enem, o candidato pode usar sua nota no Sisu, ProUni, Fies ou Sisutec para ingressar na instituição de ensino que desejar e em que estiver aprovado.
-                    </p>
-
-                    <p>
-                      Todas as informações sobre o exame e suas etapas podem ser acompanhadas pelo <a href="https://play.google.com/store/apps/details?id=br.gov.inep.inepenem&hl=pt_BR">aplicativo oficial do Enem</a>.
                     </p>
                   </div>
                 </div>
@@ -1028,13 +1027,15 @@
                 <div id="collapse81" class="collapse" aria-labelledby="item81" data-parent="#accordion8">
                   <div class="card-body">
 
-                    A Lei de Cotas (12.711/2012) existe desde 2012 e exige que universidades e institutos federais reservem 50% de suas vagas em processos seletivos para os públicos abarcados pela lei, sendo os outros 
-                    50% destinados à ampla concorrência.
-
-                    De acordo com a Lei de Cotas, pessoas com deficiência e estudantes de baixa renda familiar que cursaram o Ensino Médio completo em escola pública têm direito às cotas sociais.
-
-                    Dos 50% das vagas, 25% são destinados a educandos com renda familiar bruta total menor que 1,5 salário mínimo. Os outros 25% são destinados a educandos com renda familiar bruta total maior que 
-                    1,5 salário mínimo. Dentro deste último grupo entram as cotas raciais.
+                    <p>
+                      A Lei de Cotas (12.711/2012) existe desde 2012 e exige que universidades e institutos federais reservem 50% de suas vagas em processos seletivos para os públicos abarcados pela lei, sendo os outros 
+                      50% destinados à ampla concorrência.
+  
+                      De acordo com a Lei de Cotas, pessoas com deficiência e estudantes de baixa renda familiar que cursaram o Ensino Médio completo em escola pública têm direito às cotas sociais.
+  
+                      Dos 50% das vagas, 25% são destinados a educandos com renda familiar bruta total menor que 1,5 salário mínimo. Os outros 25% são destinados a educandos com renda familiar bruta total maior que 
+                      1,5 salário mínimo. Dentro deste último grupo entram as cotas raciais.
+                    </p>
             
                   </div>
                 </div>
@@ -1556,15 +1557,26 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>="anonymous"></script>
+    
     <script>
-      $(".nav-item").click(function(){
-            $(".nav-item").removeClass("active");
-            $(this).addClass("active");
-      });
-      $(".nav-item > a").click(function(){
-            $(this).parent().addClass("active");
+      $('.collapse').on('shown.bs.collapse', function(e) {
+        var $card = $(this).closest('.card');
+        $('html,body').animate({
+          scrollTop: $card.offset().top - 50
+        }, 500);
       });
     </script>
+
+    <script>
+      $(".card-header").click(function(){
+            $(".card-header > button").removeClass("active");
+            $(this).addClass("active");
+      });
+      $(".card-header > button").click(function(){
+            $(this).addClass("active");
+      });
+    </script>
+    
     <script>
       //Get the button
       var mybutton = document.getElementById("botao-voltar-topo");
