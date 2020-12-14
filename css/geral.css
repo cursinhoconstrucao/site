@@ -15,6 +15,10 @@ body{
     scroll-behavior: smooth;
 }
 
+hr{
+    color: black;
+}
+
 .container-fluid{
     background-color: rgb(255, 255, 255,0.7);
     padding: 0;
@@ -64,7 +68,7 @@ body{
 }
 
 #QuemSomos,#FAQ{
-    background-color: rgba(99, 0, 82, 0.4);
+    background-color: rgba(99, 0, 82, 0.5);
     color: rgb(49, 0, 42);
 }
 
