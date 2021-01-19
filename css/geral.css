@@ -211,6 +211,17 @@ p,li{
     display: none;
 }
 
+ul{
+    display: inline-block;
+    text-align: left;
+    text-align-last: left;
+}
+
+li{
+    text-align: left;
+    text-align-last: left;
+}
+
 @media only screen and (max-width: 768px) {
     /* Pequenos celulares */
     #logo{
