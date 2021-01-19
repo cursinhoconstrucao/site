@@ -60,13 +60,6 @@ hr{
 }
 
 /* cores das seções */
-* > .accordion > *{
-    /* accordion usado em classe pra que todos os acordeons, independentemente do ID, recebam a cor da seção de onde estão, aí não precisa fazer ID por ID herdar as cores */
-    background-color: inherit;
-    color: inherit;
-    margin: 10px;
-}
-
 #QuemSomos,#FAQ{
     background-color: rgba(99, 0, 82, 0.5);
     color: rgb(49, 0, 42);
@@ -115,6 +108,28 @@ button:active,button:hover,.nav-item.active,.nav-item:hover,.nav-item>a:hover,.b
     float: right;
 }
 
+.card-header button{
+    padding: 3px;
+}
+
+.carousel-control-prev,.carousel-control-next{
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    top: 40%;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    width: 30px;
+    height: 30px;
+}
+
+* > .accordion > *{
+    /* accordion usado em classe pra que todos os acordeons, independentemente do ID, recebam a cor da seção de onde estão, aí não precisa fazer ID por ID herdar as cores */
+    background-color: inherit;
+    color: inherit;
+}
 
 /* TEXTO */
 /*** diagramação ***/
@@ -225,7 +240,7 @@ li{
 @media only screen and (max-width: 768px) {
     /* Pequenos celulares */
     #logo{
-        width: 280px;
+        width: 320px;
     }
 
     #icone{
