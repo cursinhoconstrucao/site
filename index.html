@@ -2,7 +2,7 @@
 <html lang="pt-BR">
   <head>
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">  
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
       <link rel="stylesheet" href="css/geral.css">
       <link rel="icon" href="images/logoCPC-mini.png">
 
@@ -11,13 +11,15 @@
 
   <body>
     <div class="container-fluid">
+      <!-- CABEÇALHO = logo + ícones redes sociais -->
+
       <div id="header" class="row center">
 
-        <div class="col-lg-7 mx-auto">
+        <div class="col-lg-6 mx-auto">
           <a href="https://cursinhoconstrucao.github.io/site/"><img id="logo" class="mx-auto" src="images/logoCPC.png" alt="Cursinho Popular Construção"></a>
         </div>
 
-        <div class="col-lg-5 mx-auto my-auto">
+        <div class="col-lg-6 mx-auto my-auto p-3">
           <a href="mailto:cursinhoconstrucao@gmail.com" class="btn btn-default" role="button"><img width="50px" src="images/email.png" alt="E-mail"></a>
           <a href="https://www.instagram.com/cursinhopopularconstrucao/" class="btn btn-default" role="button"><img id="icone" src="images/insta.png" alt="Instagram"></a>
           <a href="https://www.facebook.com/CursinhoPopularConstrucao" class="btn btn-default" role="button"><img id="icone" src="images/face.png" alt="Facebook"></a>
@@ -32,7 +34,11 @@
 
           <div id="menu" class="row mx-auto">
             <div class="btn-group col-lg-2 mx-0 mx-auto">
-              <a href="#QuemSomos" type="button" class="nav-item mx-auto btn btn-lg col-lg-11"> <h1>Quem somos</h1> </a>
+              <a href="#QuemSomos" type="button" class="nav-item mx-auto btn btn-lg"> <h1>O que é e como funciona?</h1> </a>
+              <!-- 
+
+
+                
               <button type="button" class="center btn btn-lg dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" data-flip="false">
                 <h1></h1>
               </button>
@@ -40,27 +46,33 @@
               <div class="dropdown-menu dropdown-menu-right">
                 <a href="#ComoFuncionamos" type="button" class="nav-item col-lg-12 btn mx-auto"> <h2>Como funcionamos</h2> </a>
 
-                <span class="btn-separator my-auto"></span>
-
-                <a href="#Carta" type="button" class="nav-item col-lg-12 btn mx-auto"> <h2>Carta de princípios</h2> </a>
-
-                <span class="btn-separator"></span>
-
-                <a href="#Frente" type="button" class="nav-item col-lg-12 btn mx-auto"> <h2>Frente de Cursinhos Populares</h2> </a>
-
                 <span class="btn-separator"></span>
 
                 <a href="#Atividades-e-fotos" type="button" class="nav-item col-lg-12 btn mx-auto"> <h2>Atividades e fotos</h2> </a>
 
-                <span class="btn-separator"></span>
+                <span class="btn-separator my-auto"></span>
+
+                <a href="#Frente" type="button" class="nav-item col-lg-12 btn mx-auto"> <h2>Frente de Cursinhos Populares</h2> </a>
               </div>
+
+
+
+              -->
             </div>
 
             <span class="btn-separator"></span>
 
+            <a href="#FAQ" type="button" class="nav-item col-lg-2 btn btn-lg mx-auto my-auto"> <h1>Perguntas frequentes</h1> </a>
+
+            <span class="btn-separator"></span>
+
             <div class="btn-group col-lg-2 mx-0 mx-auto">
-              <a href="#EspaçoEstudante" type="button" class="nav-item my-auto mx-auto btn btn-lg col-lg-11"> <h1>Espaço do estudante</h1> </a>
-              <button type="button" class="nav-item mx-auto btn btn-lg dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" data-flip="false">
+              <a href="#EspaçoEstudante" type="button" class="nav-item my-auto mx-auto btn btn-lg"> <h1>Como é o vestibular?</h1> </a>
+              
+              <!-- sub-botão removido pra facilitar diagramação, mas mantive pra caso queira trazer de volta -->
+              <!--
+
+              <button type="button" class="nav-item mx-auto btn btn-lg dropdown-toggle dropdown-toggle-split mx-auto" data-toggle="dropdown" data-flip="false">
                 <h1></h1>
               </button>
 
@@ -89,18 +101,18 @@
     
                 <span class="btn-separator"></span>
                 
-                <a href="#Material" type="button" class="nav-item col-lg-12 btn mx-auto"> <h2>Material didático</h2> </a>
-                
-                <span class="btn-separator"></span>
-                
                 <a href="#Aprovados" type="button" class="nav-item col-lg-12 btn mx-auto"> <h2>Aprovados</h2> </a>
               </div>
+
+
+              -->
+
             </div>
             
             <span class="btn-separator"></span>
 
             <div class="btn-group col-lg-2 mx-0 mx-auto">
-              <a href="#Colabore" type="button" class="nav-item mx-auto btn btn-lg col-lg-11"> <h1>Colabore conosco</h1> </a>
+              <a href="#Colabore" type="button" class="nav-item mx-auto btn btn-lg col-lg-11 my-auto"> <h1>Colabore conosco</h1> </a>
               <button type="button" class="nav-item mx-auto btn btn-lg dropdown-toggle dropdown-toggle-split mx-0" data-toggle="dropdown" data-flip="false">
                 <h1></h1>
               </button>
@@ -115,14 +127,6 @@
                 
               </div>
             </div>
-
-            <span class="btn-separator"></span>
-
-            <a href="#FAQ" type="button" class="nav-item col-lg-2 btn btn-lg mx-auto my-auto"> <h1>Perguntas frequentes</h1> </a>
-
-            <span class="btn-separator"></span>
-
-            <a href="#FAQ" type="button" class="nav-item col-lg-2 mx-auto btn btn-lg mx-auto my-auto"> <h1>Mural do cursinho</h1> </a>
   
           </div>
           
@@ -137,330 +141,365 @@
 
       <div id="conteúdo">
         <button onclick="topFunction()" id="botao-voltar-topo" title="Voltar para o topo" class="btn-dark">▲</button>
+
+        
+
         <div id="QuemSomos" class="conteúdo justified">
-          <h1>Quem somos</h1>
+          <h1>O que é e como funciona?</h1>
             <p>
-              Fundado em 2018, o <b>Cursinho Popular Construção</b> é um curso pré-universitário que visa servir como espaço preparatório a jovens que desejam acessar o Ensino Superior, mas que não têm condições 
+              Fundado em 2018, o <b>Cursinho Popular Construção</b> é um curso pré-universitário que visa servir como espaço preparatório a jovens que desejam acessar 
+              o Ensino Superior, mas que não têm condições 
               de arcar com os custos de um cursinho particular. Ele tem funcionado, desde a fundação, em escolas da <b>região do Jabaquara, na zona sul de São Paulo</b>.
             </p>
             <p>
-              O cursinho é voltado a estudantes que já tenham concluído ou estejam cursando o 3° ano do Ensino Médio e que desejam prestar provas de ingresso na universidade, em especial, o Enem 
-              (Exame Nacional do Ensino Médio). Todo seu corpo de educadores atua de forma voluntária e não há cobrança de nenhuma taxa ou mensalidade dos educandos – <b>entrar no cursinho é inteiramente gratuito</b>.
+              O cursinho é voltado a estudantes que já tenham concluído ou estejam cursando o 3° ano do Ensino Médio e que desejam prestar provas de ingresso na 
+              universidade, em especial, o Enem 
+              (Exame Nacional do Ensino Médio). Todo seu corpo de educadores atua de forma voluntária e não há cobrança de nenhuma taxa ou mensalidade dos educandos 
+              – <b>entrar no cursinho é inteiramente gratuito</b>.
             </p>
             <p>
-              O objetivo do Cursinho Popular Construção é o de proporcionar a jovens oriundos das camadas populares da sociedade o acesso ao Ensino Superior – preferencialmente o Ensino Superior Público – 
-              algo historicamente negado pelas oligarquias que dominam o Brasil desde 1500. Além disso, visa também promover o pensamento crítico e a autonomia de seus educandos por meio de atividades como debates, 
+              O objetivo do Cursinho Popular Construção é o de proporcionar a jovens oriundos das camadas populares da sociedade o acesso ao Ensino Superior – 
+              preferencialmente o Ensino Superior Público – 
+              algo historicamente negado pelas oligarquias que dominam o Brasil desde 1500. Além disso, visa também promover o pensamento crítico e a autonomia 
+              de seus educandos por meio de atividades como debates, 
               ações comunitárias e passeios culturais.
             </p>
 
-          <h2 id="ComoFuncionamos">Como funcionamos</h2>
+          <h2 id="ComoFuncionamos">Como tá funcionando em 2021?</h2>
+
             <p>
-              O Cursinho Construção funciona <b>uma vez por semana, aos sábados, das 9h às 16h</b>. Nesse dia, o cursinho oferece 7 aulas, de duração de 50 minutos cada. No horário do almoço, há um intervalo de 50 minutos.
+              Por conta da pandemia de COVID-19, nosso cursinho decidiu ter apenas atividades virtuais em 2021.
             </p>
-          
 
-          <div id="accordion1" class="accordion center justified">
-						<!-- ao criar sanfona nova, SEMPRE trocar o ID dela, cada um tem que ser único-->
-            <div class="card">
-              <div class="card-header" id="Local">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse12" aria-expanded="true" aria-controls="collapse12">
-                  <!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Local de funcionamento</h2>
-                </button>
-              </div>
-          
-              <div id="collapse12" class="collapse" aria-labelledby="Local" data-parent="#accordion1">
-                <div class="card-body">
-                  <p>
-                    Em 2020, o cursinho estava programado para funcionar na <a href="https://goo.gl/maps/Bh95dUqCfYzqtjgw9">Escola Estadual João Amos Commenius</a>, 
-                    na Vila Santa Catarina mas, por conta da pandemia, as aulas presenciais foram suspensas e passaram a ser ministradas on-line.
-                  </p>
-
-                  <p>
-                    Em 2018, o cursinho funcionou na <a href="https://goo.gl/maps/1r2Wt3FhiDn4qxAm8">Escola Estadual Ângelo Mendes</a>. Já em 2019, funcionou na 
-                    <a href="https://goo.gl/maps/8xfGDYkpj3ARfp2x5">Escola Estadual Dona Pérola Byington</a>.
-                  </p>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="Aulas">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse11" aria-expanded="true" aria-controls="collapse11">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Cronograma de aulas</h2>
-                </button>
-              </div>
-          
-              <div id="collapse11" class="collapse" aria-labelledby="Aulas" data-parent="#accordion1">
-                <div class="card-body">
-                  <p>
-                    As aulas das disciplinas de <b>Língua Portuguesa e Matemática</b>, por abrangerem competências mais requisitadas no Enem e demais vestibulares, são oferecidas <b>todos os sábados</b>. 
-                    Já <b>as demais disciplinas</b> (História, Geografia, Física, Química, Biologia, Inglês/Espanhol, Filosofia/Sociologia e Redação) têm aulas <b>a cada duas semanas</b>.
-                  </p>
-
-                  <p>
-                    Além das disciplinas convencionais, o Cursinho Popular Construção também promove, a cada duas semanas, <b>atividades de debate</b> entre os educandos e palestras com convidados. 
-                    Tais atividades foram nomeadas, respectivamente, como "Fala Aí Debate" e "Fala Aí Convida".
-                  </p>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="Almoço">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse13" aria-expanded="true" aria-controls="collapse13">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Almoço</h2>
-                </button>
-              </div>
-          
-              <div id="collapse13" class="collapse" aria-labelledby="Almoço" data-parent="#accordion1">
-                <div class="card-body">
-                  
-                  <p>
-                    Durante os sábados, há intervalos de 50 minutos para que os educandos possam almoçar, descansar e confraternizar. O Cursinho Popular Construção também disponibiliza geladeira e ao menos 
-                    três microondas para aqueles que queiram guardar e esquentar marmitas trazidas de casa.
-                  </p>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="Material-didático">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse14" aria-expanded="true" aria-controls="collapse14">
-                  <!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Material didático</h2>
-                </button>
-              </div>
-          
-              <div id="collapse14" class="collapse" aria-labelledby="Material-didático" data-parent="#accordion1">
-                <div class="card-body">
-                  
-                  <p>
-                    O Cursinho Popular Construção não trabalha exclusivamente com apostilas didáticas de cursinhos comerciais. Na maior parte das vezes, usamos material impresso produzido por educadores, 
-                    sendo em sua maioria conteúdo e exercícios referente às aulas.
-                  </p>
-
-                  <p>
-                    Esse material é entregue em todas as aulas, de forma gratuita, a todos os educandos, além de também ser disponibilizado virtualmente no formato PDF.
-                  </p>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="Orientação">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse15" aria-expanded="true" aria-controls="collapse15">
-                  <!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Orientação individual</h2>
-                </button>
-              </div>
-          
-              <div id="collapse15" class="collapse" aria-labelledby="Orientação" data-parent="#accordion1">
-                <div class="card-body">
-                  
-                  <p>
-                    O Cursinho Popular Construção proporciona a seus educandos aquilo que chamamos de "Orientação Individual".
-                  </p>
-
-                  <p>
-                    Nesse processo, cada educando tem o direito a ter um "orientador", que será escolhido entre um dos educadores do cursinho que se voluntariar para desempenhar esse papel.
-                  </p>
-
-                  <p>
-                    Na Orientação Individual, o educando receberá <b>orientações sobre métodos e formas de organização de estudo, critérios para a escolha da carreira e da universidade, apoio motivacional, 
-                      esclarecimento de dúvidas</b>, entre outros pontos.
-                  </p>
-
-                  <p>
-                    Não há formalidades na relação entre orientador e educando; ela pode se dar em encontros presenciais agendados, conversas rápidas durante o intervalo de aulas ou mesmo por comunicação via telefone 
-                    e internet, com a frequência que ambos acharem a mais adequada.
-                  </p>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="Simulado">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse16" aria-expanded="true" aria-controls="collapse16">
-                  <!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Simulados</h2>
-                </button>
-              </div>
-          
-              <div id="collapse16" class="collapse" aria-labelledby="Simulado" data-parent="#accordion1">
-                <div class="card-body">
-                  
-                  <p>
-                    Duas vezes do ano (normalmente, ao fim do 1° e do 2° semestre), o Cursinho Popular Construção aplica um simulado a seus educandos com questões de vestibulares com foco no Enem. 
-                    Ele é normalmente realizado em um domingo. No simulado, os estudantes têm cinco horas para responder uma <b>prova de 90 questões divididas entre todas as disciplinas que são requisitadas no Enem</b>. 
-                    Além disso, também deve <b>redigir uma redação</b> e preencher o gabarito.
-                  </p>
-
-                  <p>
-                    Fazendo o simulado, o educando obtém uma experiência muito semelhante da que vai enfrentar quando realizar a prova do Enem, o que ajuda bastante em sua preparação para a execução do exame.
-                  </p>
-
-                  <p>
-                    É importante frisar que o Cursinho Popular Construção <b>disponibiliza o simulado de forma inteiramente gratuita</b> para seus educandos.
-                  </p>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="PensCrítico">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse17" aria-expanded="true" aria-controls="collapse17">
-                  <!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Promoção do pensamento crítico</h2>
-                </button>
-              </div>
-          
-              <div id="collapse17" class="collapse" aria-labelledby="PensCrítico" data-parent="#accordion1">
-                <div class="card-body">
-                  
-                  <p>
-                    O Cursinho Popular Construção não visa apenas "treinar" seus educandos para que possam ter um bom rendimento no Enem e nos vestibulares. Ainda que esse seja o foco, nosso cursinho também dá 
-                    grande ênfase em atividades que promovam o pensamento crítico e autonomia de seus educandos, com o objetivo de contribuir para a formação de sujeitos pensantes e atuantes em um mundo tão desigual e 
-                    repleto de desafios como é o nosso.
-                  </p>
-
-                  <p>
-                    Com essa finalidade, o cursinho promove os encontros chamados de "Fala Aí - Debate" e "Fala Aí - Convida". No primeiro, os educandos são estimulados a debater temas atuais relativos à sua realidade e 
-                    à sociedade de forma geral mediante a facilitação de um professor. Já no segundo, um convidado de fora do cursinho realiza uma palestra junto aos educandos sobre algum assunto candente na sociedade.
-                  </p>
-
-                  <p>
-                    Além disso, o cursinho também promove participação em eventos e passeios culturais a museus, pontos históricos e lugares icônicos de São Paulo sempre com uma finalidade educativa e de formação 
-                    crítico-cidadã.
-                  </p>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="Passeios">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse18" aria-expanded="true" aria-controls="collapse18">
-                  <!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Passeios e visitas</h2>
-                </button>
-              </div>
-          
-              <div id="collapse18" class="collapse" aria-labelledby="Passeios" data-parent="#accordion1">
-                <div class="card-body">
-                  
-                  <p>
-                    Além das atividades em sala de aula, o Cursinho Popular Construção também busca organizar passeios e visitas com seus educandos sempre com finalidade educativa. Nessa lista estão:
-                  </p>
-
-                  <ul>
-                    <li>
-                      <b>Passeios Culturais</b>: visita a museus, pontos históricos e outros lugares icônicos de São Paulo, como o Memorial da Resistência, o Museu Afro Brasil e a região central da cidade.
-                    </li>
-
-                    <li>
-                      <b>Feiras de Profissões</b>: presença a feiras de profissões organizadas por universidades em que os educandos poderão conhecer mais sobre os cursos universitários que têm interesse. Já organizamos visitas à Feira de Profissões da USP, da UFABC e do CEU Caminho do Mar.
-                    </li>
-
-                    <li>
-                      <b>Eventos</b>: participação em eventos de formação política e cidadão, como a Jornada de Educação Popular, o Ocupa USP e uma sessão da Câmara de Vereadores.
-                    </li>
-
-                    <li>
-                      <b>Trilhas</b>: ida a lugares de contato com a natureza para a realização de trilhas e confraternização, como o Parque Ibirapuera e o Pico do Jaraguá.
-                    </li>
-                  </ul>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="Psico">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse19" aria-expanded="true" aria-controls="collapse19">
-                  <!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Apoio psicológico</h2>
-                </button>
-              </div>
-          
-              <div id="collapse19" class="collapse" aria-labelledby="Psico" data-parent="#accordion1">
-                <div class="card-body">
-                  
-                  <p>
-                    Cientes que a fase de preparação para o vestibular pode ser marcada por diversos desafios emocionais para os educandos, o Cursinho Popular Construção também conta com uma equipe de profissionais 
-                    de psicologia disponíveis para atividades em grupo e, se for o caso, para atendimentos individuais.
-                  </p>
-
-                  <p>
-                    Em eventuais situações, também podemos realizar encaminhamentos para serviços públicos de saúde e fazer o acompanhamento junto à família.
-                  </p>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="Biblioteca">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse110" aria-expanded="true" aria-controls="collapse110">
-                  <!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Biblioteca</h2>
-                </button>
-              </div>
-          
-              <div id="collapse110" class="collapse" aria-labelledby="Biblioteca" data-parent="#accordion1">
-                <div class="card-body">
-                  
-                  <p>
-                    No Cursinho Popular Construção, o hábito de leitura é amplamente valorizado e estimulado, visando não somente aprimorar a fluência textual dos educandos, mas também enriquecer seu repertório cultural.
-                  </p>
-
-                  <p>
-                    Por isso, disponibilizamos a "Biblioteca Construção", que reúne <b>livros emprestados (e não doados!) por professores e educandos</b>, que podem ser retirados para leitura desde que, posteriormente, 
-                    sejam devolvidos à biblioteca.
-                  </p>
-
-                  <p>
-                    Há livros disponíveis de todos os gêneros: literatura, passando por ensaios e até mesmo apostilas didáticas.
-                  </p>
-
-
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <h2 id="Carta">Carta de princípios</h2>
+            <h3>1º semestre</h3>
             <p>
-              Clique <a href="">aqui</a> para ler nossa carta de princípios.
+              Confira nossas lives e aulões do primeiro semestre de 2021 <a href="https://www.youtube.com/playlist?list=PL7vJo-ueWSSauP5R742zAFWgQXvFnxQpc">no nosso canal do YouTube</a>!
             </p>
-          
-          <h2 id="Frente">Frente de Cursinhos Populares</h2>
+
+            <h3>2º semestre</h3>
+            <!-- remover abaixo depois que voltar presencial -->
+            <p>
+              No segundo semestre de 2021, o Cursinho Construção terá aulas online (gravadas e ao vivo) de todas as disciplinas, atividades específicas sobre escolha de carreira e universidade
+              e também orientação individual para quem tiver interesse!
+            </p>
+
+            <p>
+              <a href="" class="btn btn-lg btn-danger">FAÇA SUA INSCRIÇÃO AQUI</a>
+            </p>
+
+            <p>
+              Quanto às aulas, vai funcionar assim:
+            </p>
             
-            <p>
-              O Cursinho Popular Construção compõe a Frente de Cursinhos Populares, uma articulação que reúne dezenas de cursinhos populares da região metropolitana de São Paulo.
-            </p>
+            <ul>
+              <li>No dia <b>31 de julho de 2021</b> teremos uma primeira aula especial com orientações de estudo</li>
+              <li>No <b>começo de cada mês</b>, vamos enviar um módulo de cada disciplina, contendo várias atividades para assistir, ler e fazer</li>
+              <li>Daí, <b>ao longo da semana</b>, você confere os materiais postados, tenta fazer as atividades propostas e anota as dúvidas e lembre-se, TODA DÚVIDA É IMPORTANTE!</li>
+              <li>Então, você <b>pega essas dúvidas todas e manda um e-mail ou mensagem no nosso grupo de WhatsApp</b> para falar com os professores!</li>
+              <li>Por fim, <b>todo sábado</b>, teremos 3 matérias dando aulas ao vivo - esse é mais um momento de TIRAR DÚVIDAS e de entender OS PRÓXIMOS PASSOS!</li>
+            </ul>
 
-            <p>              
-              A Frente de Cursinhos Populares realiza debates sobre temas ligados à educação, promove intercâmbio de experiências entre cursinhos e também organiza campanhas para a reivindicação de direitos, como foi o caso da campanha pela aprovação do passe livre para estudantes de cursinhos populares, ocorrida em 2019.
+            <!-- (tá com atributo d-none para não aparecer em 2021) -->
+            <p class="d-none">
+              O Cursinho Construção funciona <b>uma vez por semana, aos sábados, das 9h às 16h</b>. Nesse dia, o cursinho oferece 7 aulas, de duração de 50 minutos cada. 
+              No horário do almoço, há um intervalo de 50 minutos.
             </p>
+          
+            <!-- SANFONA (tá com atributo d-none para não aparecer em 2021) -->
 
-            <p>
-              Além disso, a Frente também é responsável pela organização da Jornada de Educação Popular, um grande evento realizado uma vez ao ano que conta com debates, oficinas e grupos de discussão sobre o universo dos cursinhos populares, além de deliberar ações em conjunto para o próximo período.
-            </p>
+            <div id="accordion1" class="accordion center justified d-none">
+              <!-- ao criar sanfona nova, SEMPRE trocar o ID dela, cada um tem que ser único-->
+              <div class="card">
+                <div class="card-header" id="Local">
+                  <button class="btn btn-block" data-toggle="collapse" data-target="#collapse12" aria-expanded="true" aria-controls="collapse12">
+                    <!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                    <h2>Local de funcionamento</h2>
+                  </button>
+                </div>
+            
+                <div id="collapse12" class="collapse" aria-labelledby="Local" data-parent="#accordion1">
+                  <div class="card-body">
+                    <p>
+                      Em 2020, o cursinho estava programado para funcionar na <a href="https://goo.gl/maps/Bh95dUqCfYzqtjgw9">Escola Estadual João Amos Commenius</a>, 
+                      na Vila Santa Catarina mas, por conta da pandemia, as aulas presenciais foram suspensas e passaram a ser ministradas on-line.
+                    </p>
+
+                    <p>
+                      Em 2018, o cursinho funcionou na <a href="https://goo.gl/maps/1r2Wt3FhiDn4qxAm8">Escola Estadual Ângelo Mendes</a>. Já em 2019, funcionou na 
+                      <a href="https://goo.gl/maps/8xfGDYkpj3ARfp2x5">Escola Estadual Dona Pérola Byington</a>.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="Aulas">
+                  <button class="btn btn-block" data-toggle="collapse" data-target="#collapse11" aria-expanded="true" aria-controls="collapse11">
+                    <!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                    <h2>Cronograma de aulas</h2>
+                  </button>
+                </div>
+            
+                <div id="collapse11" class="collapse" aria-labelledby="Aulas" data-parent="#accordion1">
+                  <div class="card-body">
+                    <p>
+                      As aulas das disciplinas de <b>Língua Portuguesa e Matemática</b>, por abrangerem competências mais requisitadas no Enem e demais vestibulares, são oferecidas <b>todos os sábados</b>. 
+                      Já <b>as demais disciplinas</b> (História, Geografia, Física, Química, Biologia, Inglês/Espanhol, Filosofia/Sociologia e Redação) têm aulas <b>a cada duas semanas</b>.
+                    </p>
+
+                    <p>
+                      Além das disciplinas convencionais, o Cursinho Popular Construção também promove, a cada duas semanas, <b>atividades de debate</b> entre os educandos e palestras com convidados. 
+                      Tais atividades foram nomeadas, respectivamente, como "Fala Aí Debate" e "Fala Aí Convida".
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="Almoço">
+                  <button class="btn btn-block" data-toggle="collapse" data-target="#collapse13" aria-expanded="true" aria-controls="collapse13">
+                    <!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                    <h2>Almoço</h2>
+                  </button>
+                </div>
+            
+                <div id="collapse13" class="collapse" aria-labelledby="Almoço" data-parent="#accordion1">
+                  <div class="card-body">
+                    
+                    <p>
+                      Durante os sábados, há intervalos de 50 minutos para que os educandos possam almoçar, descansar e confraternizar. O Cursinho Popular Construção também disponibiliza geladeira e ao menos 
+                      três microondas para aqueles que queiram guardar e esquentar marmitas trazidas de casa.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="Material-didático">
+                  <button class="btn btn-block" data-toggle="collapse" data-target="#collapse14" aria-expanded="true" aria-controls="collapse14">
+                    <!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                    <h2>Material didático</h2>
+                  </button>
+                </div>
+            
+                <div id="collapse14" class="collapse" aria-labelledby="Material-didático" data-parent="#accordion1">
+                  <div class="card-body">
+                    
+                    <p>
+                      O Cursinho Popular Construção não trabalha exclusivamente com apostilas didáticas de cursinhos comerciais. Na maior parte das vezes, usamos material impresso produzido por educadores, 
+                      sendo em sua maioria conteúdo e exercícios referente às aulas.
+                    </p>
+
+                    <p>
+                      Esse material é entregue em todas as aulas, de forma gratuita, a todos os educandos, além de também ser disponibilizado virtualmente no formato PDF.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="Orientação">
+                  <button class="btn btn-block" data-toggle="collapse" data-target="#collapse15" aria-expanded="true" aria-controls="collapse15">
+                    <!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                    <h2>Orientação individual</h2>
+                  </button>
+                </div>
+            
+                <div id="collapse15" class="collapse" aria-labelledby="Orientação" data-parent="#accordion1">
+                  <div class="card-body">
+                    
+                    <p>
+                      O Cursinho Popular Construção proporciona a seus educandos aquilo que chamamos de "Orientação Individual".
+                    </p>
+
+                    <p>
+                      Nesse processo, cada educando tem o direito a ter um "orientador", que será escolhido entre um dos educadores do cursinho que se voluntariar para desempenhar esse papel.
+                    </p>
+
+                    <p>
+                      Na Orientação Individual, o educando receberá <b>orientações sobre métodos e formas de organização de estudo, critérios para a escolha da carreira e da universidade, apoio motivacional, 
+                        esclarecimento de dúvidas</b>, entre outros pontos.
+                    </p>
+
+                    <p>
+                      Não há formalidades na relação entre orientador e educando; ela pode se dar em encontros presenciais agendados, conversas rápidas durante o intervalo de aulas ou mesmo por comunicação via telefone 
+                      e internet, com a frequência que ambos acharem a mais adequada.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="Simulado">
+                  <button class="btn btn-block" data-toggle="collapse" data-target="#collapse16" aria-expanded="true" aria-controls="collapse16">
+                    <!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                    <h2>Simulados</h2>
+                  </button>
+                </div>
+            
+                <div id="collapse16" class="collapse" aria-labelledby="Simulado" data-parent="#accordion1">
+                  <div class="card-body">
+                    
+                    <p>
+                      Duas vezes do ano (normalmente, ao fim do 1° e do 2° semestre), o Cursinho Popular Construção aplica um simulado a seus educandos com questões de vestibulares com foco no Enem. 
+                      Ele é normalmente realizado em um domingo. No simulado, os estudantes têm cinco horas para responder uma <b>prova de 90 questões divididas entre todas as disciplinas que são requisitadas no Enem</b>. 
+                      Além disso, também deve <b>redigir uma redação</b> e preencher o gabarito.
+                    </p>
+
+                    <p>
+                      Fazendo o simulado, o educando obtém uma experiência muito semelhante da que vai enfrentar quando realizar a prova do Enem, o que ajuda bastante em sua preparação para a execução do exame.
+                    </p>
+
+                    <p>
+                      É importante frisar que o Cursinho Popular Construção <b>disponibiliza o simulado de forma inteiramente gratuita</b> para seus educandos.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="PensCrítico">
+                  <button class="btn btn-block" data-toggle="collapse" data-target="#collapse17" aria-expanded="true" aria-controls="collapse17">
+                    <!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                    <h2>Promoção do pensamento crítico</h2>
+                  </button>
+                </div>
+            
+                <div id="collapse17" class="collapse" aria-labelledby="PensCrítico" data-parent="#accordion1">
+                  <div class="card-body">
+                    
+                    <p>
+                      O Cursinho Popular Construção não visa apenas "treinar" seus educandos para que possam ter um bom rendimento no Enem e nos vestibulares. Ainda que esse seja o foco, nosso cursinho também dá 
+                      grande ênfase em atividades que promovam o pensamento crítico e autonomia de seus educandos, com o objetivo de contribuir para a formação de sujeitos pensantes e atuantes em um mundo tão desigual e 
+                      repleto de desafios como é o nosso.
+                    </p>
+
+                    <p>
+                      Com essa finalidade, o cursinho promove os encontros chamados de "Fala Aí - Debate" e "Fala Aí - Convida". No primeiro, os educandos são estimulados a debater temas atuais relativos à sua realidade e 
+                      à sociedade de forma geral mediante a facilitação de um professor. Já no segundo, um convidado de fora do cursinho realiza uma palestra junto aos educandos sobre algum assunto candente na sociedade.
+                    </p>
+
+                    <p>
+                      Além disso, o cursinho também promove participação em eventos e passeios culturais a museus, pontos históricos e lugares icônicos de São Paulo sempre com uma finalidade educativa e de formação 
+                      crítico-cidadã.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="Passeios">
+                  <button class="btn btn-block" data-toggle="collapse" data-target="#collapse18" aria-expanded="true" aria-controls="collapse18">
+                    <!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                    <h2>Passeios e visitas</h2>
+                  </button>
+                </div>
+            
+                <div id="collapse18" class="collapse" aria-labelledby="Passeios" data-parent="#accordion1">
+                  <div class="card-body">
+                    
+                    <p>
+                      Além das atividades em sala de aula, o Cursinho Popular Construção também busca organizar passeios e visitas com seus educandos sempre com finalidade educativa. Nessa lista estão:
+                    </p>
+
+                    <ul>
+                      <li>
+                        <b>Passeios Culturais</b>: visita a museus, pontos históricos e outros lugares icônicos de São Paulo, como o Memorial da Resistência, o Museu Afro Brasil e a região central da cidade.
+                      </li>
+
+                      <li>
+                        <b>Feiras de Profissões</b>: presença a feiras de profissões organizadas por universidades em que os educandos poderão conhecer mais sobre os cursos universitários que têm interesse. Já organizamos visitas à Feira de Profissões da USP, da UFABC e do CEU Caminho do Mar.
+                      </li>
+
+                      <li>
+                        <b>Eventos</b>: participação em eventos de formação política e cidadão, como a Jornada de Educação Popular, o Ocupa USP e uma sessão da Câmara de Vereadores.
+                      </li>
+
+                      <li>
+                        <b>Trilhas</b>: ida a lugares de contato com a natureza para a realização de trilhas e confraternização, como o Parque Ibirapuera e o Pico do Jaraguá.
+                      </li>
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="Psico">
+                  <button class="btn btn-block" data-toggle="collapse" data-target="#collapse19" aria-expanded="true" aria-controls="collapse19">
+                    <!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                    <h2>Apoio psicológico</h2>
+                  </button>
+                </div>
+            
+                <div id="collapse19" class="collapse" aria-labelledby="Psico" data-parent="#accordion1">
+                  <div class="card-body">
+                    
+                    <p>
+                      Cientes que a fase de preparação para o vestibular pode ser marcada por diversos desafios emocionais para os educandos, o Cursinho Popular Construção também conta com uma equipe de profissionais 
+                      de psicologia disponíveis para atividades em grupo e, se for o caso, para atendimentos individuais.
+                    </p>
+
+                    <p>
+                      Em eventuais situações, também podemos realizar encaminhamentos para serviços públicos de saúde e fazer o acompanhamento junto à família.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="Biblioteca">
+                  <button class="btn btn-block" data-toggle="collapse" data-target="#collapse110" aria-expanded="true" aria-controls="collapse110">
+                    <!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                    <h2>Biblioteca</h2>
+                  </button>
+                </div>
+            
+                <div id="collapse110" class="collapse" aria-labelledby="Biblioteca" data-parent="#accordion1">
+                  <div class="card-body">
+                    
+                    <p>
+                      No Cursinho Popular Construção, o hábito de leitura é amplamente valorizado e estimulado, visando não somente aprimorar a fluência textual dos educandos, mas também enriquecer seu repertório cultural.
+                    </p>
+
+                    <p>
+                      Por isso, disponibilizamos a "Biblioteca Construção", que reúne <b>livros emprestados (e não doados!) por professores e educandos</b>, que podem ser retirados para leitura desde que, posteriormente, 
+                      sejam devolvidos à biblioteca.
+                    </p>
+
+                    <p>
+                      Há livros disponíveis de todos os gêneros: literatura, passando por ensaios e até mesmo apostilas didáticas.
+                    </p>
+
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
 
           <h2 id="Atividades-e-fotos">Atividades e fotos</h2>
 
           <p>
-            Nosso cursinho já promoveu e/ou participou das seguintes atividades:
+            Confira abaixo as atividades que o Construção já promovou ou participou!
           </p>
 
           <div id="accordion9" class="accordion center justified">
@@ -558,10 +597,355 @@
           </div>
 
 
-        </div>
+
+
+
+
+          <h2 id="Frente">Frente de Cursinhos Populares</h2>
+            
+          <p>
+            O Cursinho Popular Construção compõe a Frente de Cursinhos Populares, uma articulação que reúne dezenas de cursinhos populares da região metropolitana de São Paulo.
+          </p>
           
+          <p>              
+            A Frente de Cursinhos Populares realiza debates sobre temas ligados à educação, promove intercâmbio de experiências entre cursinhos e também organiza campanhas para a reivindicação de direitos, como foi o caso da campanha pela aprovação do passe livre para estudantes de cursinhos populares, ocorrida em 2019.
+          </p>
+
+          <p>
+            Além disso, a Frente também é responsável pela organização da Jornada de Educação Popular, um grande evento realizado uma vez ao ano que conta com debates, oficinas e grupos de discussão sobre o universo dos cursinhos populares, além de deliberar ações em conjunto para o próximo período.
+          </p>
+
+        </div>
+
+        <div id="FAQ" class="conteúdo justified">
+          <h1>Perguntas frequentes</h1>
+          <p>
+            Colocamos abaixo as respostas para algumas dúvidas comuns entre estudantes que pensam no ensino superior!
+          </p>
+          
+          <div id="accordion2" class="accordion center justified">
+						<!-- ao criar sanfona nova, SEMPRE trocar o ID dela, cada um tem que ser único-->
+            <div class="card">
+              <div class="card-header" id="item21">
+                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse21" aria-expanded="true" aria-controls="collapse21">
+									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                  <h2>É muito difícil ser aprovado em uma universidade? Será que tenho chances?</h2>
+                </button>
+              </div>
+          
+              <div id="collapse21" class="collapse" aria-labelledby="item21" data-parent="#accordion2">
+                <div class="card-body">
+                  <p>
+                    O grau de dificuldade para ser aprovado em uma universidade depende dos seguintes fatores: a universidade que você quer entrar; o curso que você pretende estudar; a sua dedicação aos estudos.
+                  </p>
+                    
+                  <p>
+                    Há universidades mais difíceis de se entrar do que outras (por exemplo, universidades públicas são mais difíceis de se entrar do que universidades particulares), assim como há cursos mais concorridos do que outros (por exemplo, o curso de Medicina costuma ser mais concorrido do que o de Ciências Sociais). Além disso, alguém que estuda apenas uma vez por semana terá naturalmente menos chances do que alguém que estuda cinco vezes por semana.
+                  </p>
+                    
+                  <p>
+                    O mais importante é saber que todos podem ser aprovados numa universidade, bastando apenas que você se prepare corretamente para isso (e nós estamos aqui para te ajudar com isso). A criação da lei das cotas sociais e raciais para as universidades públicas, assim como a criação do Prouni e o FIES para as universidades particulares, facilitaram bastante o acesso ao Ensino Superior (leia mais sobre isso <a href="#AcessandoUni">aqui</a>). 
+                  </p>
+                    
+                  <p>  
+                    Nós do Cursinho Construção estamos prontos para ajudá-lo a acessar a universidade, seja proporcionando as condições de estudo para a realização do Enem, seja tirando todas as dúvidas que você tiver sobre os processos seletivos e os programas de apoio aos estudantes.
+                  </p>
+                    
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="item22">
+                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse22" aria-expanded="true" aria-controls="collapse22">
+									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                  <h2>Quero estudar no Cursinho Construção. Como faço para me matricular?</h2>
+                </button>
+              </div>
+          
+              <div id="collapse22" class="collapse" aria-labelledby="item22" data-parent="#accordion2">
+                <div class="card-body">
+                  <p>
+                    Para estudar no Cursinho Popular Construção é preciso:
+                  </p>
+                  <ul>
+                    <li>Já ter concluído o Ensino Médio em escola pública</li>
+                    <li>Ser estudante o 3º ano do Ensino Médio de escola pública - caso haja vagas disponíveis, bolsistas de escolas particulares também podem se inscrever</li>
+                  </ul>
+                  <p>
+                    Caso você atenda a um dos requisitos e se interessou por estudar conosco, é só preencher este formulário e ler atentamente todas as orientações. Eventualmente, nós entraremos em contato com você para comunicar os procedimentos para sua integração ao cursinho.
+                  </p>
+                    
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="item23">
+                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse23" aria-expanded="true" aria-controls="collapse23">
+									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                  <h2>Quanto custa para estudar no Cursinho Popular Construção?</h2>
+                </button>
+              </div>
+          
+              <div id="collapse23" class="collapse" aria-labelledby="item23" data-parent="#accordion2">
+                <div class="card-body">
+                  <p>
+                    Nada. O Cursinho Popular Construção é totalmente gratuito para seus educandos. Não há taxa de matrícula, mensalidade nem cobrança por materiais didáticos.
+                  </p>                    
+                </div>
+              </div>
+            </div>
+
+            <div class="card d-none">
+              <div class="card-header" id="item24">
+                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse24" aria-expanded="true" aria-controls="collapse24">
+									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                  <h2>Em quais dias e horários que o cursinho funciona?</h2>
+                </button>
+              </div>
+          
+              <div id="collapse24" class="collapse" aria-labelledby="item24" data-parent="#accordion2">
+                <div class="card-body">
+                  <p>
+                    As aulas do Cursinho Popular Construção ocorrem aos sábados, das 9h às 16h, com pausa de uma hora para o almoço.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card d-none">
+              <div class="card-header" id="item25">
+                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse25" aria-expanded="true" aria-controls="collapse25">
+									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                  <h2>Onde o Cursinho Popular Construção está localizado?</h2>
+                </button>
+              </div>
+          
+              <div id="collapse25" class="collapse" aria-labelledby="item25" data-parent="#accordion2">
+                <div class="card-body">
+                  <p>
+                    O Cursinho Popular Construção funciona em escolas públicas. Em 2020, o cursinho funcionaria na Escola Municipal de Ensino Fundamental João Amos Commenius, mas com o início da pandemia, as aulas passaram a ser online para a segurança de alunos e educadores.
+                  </p>                    
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="item26">
+                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse26" aria-expanded="true" aria-controls="collapse26">
+									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                  <h2>Ainda não decidi qual curso quero fazer. Podem me ajudar com isso?</h2>
+                </button>
+              </div>
+          
+              <div id="collapse26" class="collapse" aria-labelledby="item26" data-parent="#accordion2">
+                <div class="card-body">
+                  <p>
+                    Com certeza. Praticamente todos os educandos têm dúvidas sobre qual curso estudar na universidade e isso é mais do que normal. 
+                  </p>
+                    
+                  <p>
+                    Para tratar desse ponto, o Cursinho Popular Construção tem iniciativas como a Orientação Individual, visitas a feiras de profissões, aulas e palestras sobre cursos e universidades, indicações de materiais sobre a questão, entre outras.
+                  </p>                    
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="item28">
+                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse28" aria-expanded="true" aria-controls="collapse28">
+									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                  <h2>Quais aulas que o Cursinho Popular Construção oferece?</h2>
+                </button>
+              </div>
+          
+              <div id="collapse28" class="collapse" aria-labelledby="item28" data-parent="#accordion2">
+                <div class="card-body">
+                  <p>
+                    As aulas oferecidas pelo corpo de educadores do Cursinho Popular Construção são das seguintes disciplinas: Língua Portuguesa, Matemática, Redação, Física, Química, Biologia, História, Geografia, Filosofia, Sociologia, Inglês, Espanhol.
+                  </p>
+                    
+                  <p>
+                    Além disso, o cursinho também oferece rodas de debate, passeios culturais e visitas a universidades e feiras de profissões.
+                  </p>
+                    
+                </div>
+              </div>
+            </div>
+
+            <div class="card d-none">
+              <div class="card-header" id="item29">
+                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse29" aria-expanded="true" aria-controls="collapse29">
+									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                  <h2>O que são os passeios culturais? E essas visitas a universidades e feiras de profissões?</h2>
+                </button>
+              </div>
+          
+              <div id="collapse29" class="collapse" aria-labelledby="item29" data-parent="#accordion2">
+                <div class="card-body">
+                  <p>
+                    Os passeios culturais proporcionados pelo Cursinho Popular Construção são passeios a museus, centros culturais, parques e lugares históricos de São Paulo. Esses passeios têm o objetivo de promover um ambiente educativo fora do espaço da sala de aula, além de estimular a integração entre educandos e educadores.
+                  </p>
+                    
+                  <p>
+                    Já as visitas às universidades buscam proporcionar aos educandos conhecer a estrutura física de uma universidade para que possa saciar sua curiosidade e também estabelecer vínculos afetivos com o ambiente universitário. Na lista de universidades que visitamos estão a USP, a Unifesp e UFABC, todas universidades públicas.
+                  </p>
+                    
+                  <p>
+                    Por fim, a participação em Feiras de Profissões visa permitir aos educandos conhecer mais sobre os cursos pelos quais têm interesse na medida em que podem tirar dúvidas com estudantes universitários que participam dessas feiras. 
+                  </p>
+                    
+                  <p>
+                    É importante lembrar que os educandos que forem menores de idade só poderão participar dessas excursões com autorização assinada por um de seus responsáveis.
+                  </p>                    
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="item211">
+                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse211" aria-expanded="true" aria-controls="collapse211">
+									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                  <h2>O Cursinho Popular Construção fornece material didático?</h2>
+                </button>
+              </div>
+          
+              <div id="collapse211" class="collapse" aria-labelledby="item211" data-parent="#accordion2">
+                <div class="card-body">
+                  <p>
+                    O Cursinho Popular Construção trabalha com material impresso com conteúdo referente às aulas, o qual é entregue nas próprias aulas.
+                  </p>
+                    
+                  <p>
+                    Caso um educando falte à aula, ele ainda poderá acessar esse material em formato PDF, que estará disponível em uma pasta virtual na internet,  ou poderá solicitar uma cópia impressa junto à coordenação do cursinho na aula seguinte.
+                  </p>
+                    
+                  <p>
+                    É importante lembrar que esse material impresso é entregue gratuitamente.
+                  </p>
+                    
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="item212">
+                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse212" aria-expanded="true" aria-controls="collapse212">
+									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                  <h2>Como o Cursinho Popular Construção se financia?</h2>
+                </button>
+              </div>
+          
+              <div id="collapse212" class="collapse" aria-labelledby="item212" data-parent="#accordion2">
+                <div class="card-body">
+                  <p> 
+                    O Cursinho Popular Construção é financiado exclusivamente por doações feitas por seus próprios educadores e apoiadores, e também por valores arrecadados em eventos de confraternização.
+                  </p>                    
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="item213">
+                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse213" aria-expanded="true" aria-controls="collapse213">
+									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                  <h2>Posso entrar depois das aulas já terem começado?</h2>
+                </button>
+              </div>
+          
+              <div id="collapse213" class="collapse" aria-labelledby="item213" data-parent="#accordion2">
+                <div class="card-body">
+                  <p>
+                    Sim. Contudo, é possível que você leve um tempo para se equiparar com o conteúdo já visto pelos educandos que estavam desde o início do período letivo. Para isso, educadores e coordenação vão colaborar com sua adaptação.
+                  </p>
+                    
+                  <p>
+                    Após essa fase, você será integrado normalmente às aulas convencionais.
+                  </p>
+                    
+                </div>
+              </div>
+            </div>
+
+            <div class="card d-none">
+              <div class="card-header" id="item214">
+                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse214" aria-expanded="true" aria-controls="collapse214">
+									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                  <h2>Qual a duração das aulas?</h2>
+                </button>
+              </div>
+          
+              <div id="collapse214" class="collapse" aria-labelledby="item214" data-parent="#accordion2">
+                <div class="card-body">
+                  <p>
+                    As aulas do Cursinho Popular Construção duram 50 minutos.
+                  </p>                    
+                </div>
+              </div>
+            </div>
+
+            <div class="card d-none">
+              <div class="card-header" id="item215">
+                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse215" aria-expanded="true" aria-controls="collapse215">
+									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                  <h2>Tem intervalo entre as aulas?</h2>
+                </button>
+              </div>
+          
+              <div id="collapse215" class="collapse" aria-labelledby="item215" data-parent="#accordion2">
+                <div class="card-body">
+                  <p>
+                    Sim, o Cursinho Popular Construção faz uma pausa de 50 minutos no horário do almoço para que educadores e educandos possam se alimentar e também confraternizar. É importante mencionar que disponibilizamos geladeira e microondas para que os educandos possam guardar suas marmitas e esquentá-las na hora que for comê-las.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card d-none">
+              <div class="card-header" id="item216">
+                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse216" aria-expanded="true" aria-controls="collapse216">
+									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                  <h2>O Cursinho Popular Construção fornece almoço ou lanche?</h2>
+                </button>
+              </div>
+          
+              <div id="collapse216" class="collapse" aria-labelledby="item216" data-parent="#accordion2">
+                <div class="card-body">
+                  <p>
+                    Por enquanto ainda não, apenas geladeira e microondas para que os educandos possam trazer marmitas de casa.
+                  </p>                    
+                </div>
+              </div>
+            </div>
+
+            <div class="card d-none">
+              <div class="card-header" id="item217">
+                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse217" aria-expanded="true" aria-controls="collapse217">
+									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
+                  <h2>Estar matriculado no Cursinho Popular Construção dá direito à gratuidade no transporte público?</h2>
+                </button>
+              </div>
+          
+              <div id="collapse217" class="collapse" aria-labelledby="item217" data-parent="#accordion2">
+                <div class="card-body">
+                  <p>
+                    Infelizmente, não. 
+                  </p>
+                    
+                  <p>
+                    Em 2019, o Cursinho Popular Construção esteve engajado em uma campanha puxada pela Frente de Cursinhos Populares para sensibilizar a Prefeitura de São Paulo a aprovar o Projeto de Lei 508/2016, que concedia a gratuidade nos ônibus municipais a estudantes de cursinhos populares e havia sido aprovado na Câmara de Vereadores. Entretanto, o prefeito Bruno Covas, do PSDB, acabou vetando esse projeto.
+                  </p>                    
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        
         <div id="EspaçoEstudante" class="conteúdo justified">
-          <h1>Espaço do estudante</h1>
+          <h1>Entendendo o vestibular</h1>
 
           <h2 id="AcessandoUni">Acessando a universidade</h2>
             <p>
@@ -1226,442 +1610,49 @@
             apenas para dar aulas, mas também para construir o projeto politicamente na região do Jabaquara.
           </p>
 
-          <div id="accordion4" class="accordion center justified">
-						<!-- ao criar sanfona nova, SEMPRE trocar o ID dela, cada um tem que ser único-->
-            <div class="card">
-              <div class="card-header" id="SejaEducador">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse41" aria-expanded="true" aria-controls="collapse41">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h3>Seja educador</h3>
-                </button>
-              </div>
-          
-              <div id="collapse41" class="collapse" aria-labelledby="SejaEducador" data-parent="#accordion4">
-                <div class="card-body">
-                  <p>
-                    Atualmente, o Cursinho Popular Construção oferece aulas nas seguintes disciplinas:
-
-                    <ul>
-                      <li>Língua Portuguesa</li>
-                      <li>Matemática</li>
-                      <li>Redação</li>
-                      <li>Física</li>
-                      <li>Química</li>
-                      <li>Biologia</li>
-                      <li>História</li>
-                      <li>Geografia</li>
-                      <li>Filosofia</li>
-                      <li>Sociologia</li>
-                      <li>Inglês</li>
-                      <li>Espanhol</li>
-                    </ul> 
-
-                  </p>            
-                  
-                  <p>
-                    Caso você tenha interesse em ser um professor voluntário, preencha nosso formulário, que, se houver demanda, entraremos em contato - lembrando que o período mais propenso para a seleção de novos professores é o do final e início do ano letivo.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="SejaDoador">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse42" aria-expanded="true" aria-controls="collapse42">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h3>Seja doador</h3>
-                </button>
-              </div>
-          
-              <div id="collapse42" class="collapse" aria-labelledby="SejaDoador" data-parent="#accordion4">
-                <div class="card-body">
-                  <p>
-                    Quer fazer uma doação para o Cursinho Popular Construção e apoiar um projeto que ajuda a preparar estudantes da rede pública a desenvolver e acessar a universidade e a desenvolver o pensamento crítico e autonomia?
-                  </p>
-
-                  <p>
-                    Clique <a href="">aqui</a> e faça já sua doação.
-                  </p>
-
-                  <p>
-                    Lembrando que o Cursinho Popular Construção não cobra um centavo de nenhum de seus alunos, não possui patrocínio de grandes empresas, tampouco aceita dinheiro oriundo de grandes fundações 
-                    ligadas às oligarquias empresariais do Brasil e do mundo. <b>Todo o dinheiro usado para arcar com os custos vem exclusivamente de doações de homens e mulheres que acreditam em nossa proposta.</b>
-                  </p>
-
-                  <p>
-                    Portanto, seu apoio é mais que importante; ele é fundamental para que continuemos existindo.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-        <div id="FAQ" class="conteúdo justified">
-          <h1>Perguntas frequentes</h1>
           <p>
-            Colocamos abaixo as respostas para algumas dúvidas comuns entre estudantes que pensam no ensino superior!
+            Além disso, não deixe de ler nossa <a href="">carta de princípios</a>
           </p>
-          
-          <div id="accordion2" class="accordion center justified">
-						<!-- ao criar sanfona nova, SEMPRE trocar o ID dela, cada um tem que ser único-->
-            <div class="card">
-              <div class="card-header" id="item21">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse21" aria-expanded="true" aria-controls="collapse21">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>É muito difícil ser aprovado em uma universidade? Será que tenho chances?</h2>
-                </button>
-              </div>
-          
-              <div id="collapse21" class="collapse" aria-labelledby="item21" data-parent="#accordion2">
-                <div class="card-body">
-                  <p>
-                    O grau de dificuldade para ser aprovado em uma universidade depende dos seguintes fatores: a universidade que você quer entrar; o curso que você pretende estudar; a sua dedicação aos estudos.
-                  </p>
-                    
-                  <p>
-                    Há universidades mais difíceis de se entrar do que outras (por exemplo, universidades públicas são mais difíceis de se entrar do que universidades particulares), assim como há cursos mais concorridos do que outros (por exemplo, o curso de Medicina costuma ser mais concorrido do que o de Ciências Sociais). Além disso, alguém que estuda apenas uma vez por semana terá naturalmente menos chances do que alguém que estuda cinco vezes por semana.
-                  </p>
-                    
-                  <p>
-                    O mais importante é saber que todos podem ser aprovados numa universidade, bastando apenas que você se prepare corretamente para isso (e nós estamos aqui para te ajudar com isso). A criação da lei das cotas sociais e raciais para as universidades públicas, assim como a criação do Prouni e o FIES para as universidades particulares, facilitaram bastante o acesso ao Ensino Superior (leia mais sobre isso <a href="#AcessandoUni">aqui</a>). 
-                  </p>
-                    
-                  <p>  
-                    Nós do Cursinho Construção estamos prontos para ajudá-lo a acessar a universidade, seja proporcionando as condições de estudo para a realização do Enem, seja tirando todas as dúvidas que você tiver sobre os processos seletivos e os programas de apoio aos estudantes.
-                  </p>
-                    
-                </div>
-              </div>
-            </div>
 
-            <div class="card">
-              <div class="card-header" id="item22">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse22" aria-expanded="true" aria-controls="collapse22">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Quero estudar no Cursinho Construção. Como faço para me matricular?</h2>
-                </button>
-              </div>
-          
-              <div id="collapse22" class="collapse" aria-labelledby="item22" data-parent="#accordion2">
-                <div class="card-body">
-                  <p>
-                    Para estudar no Cursinho Popular Construção é preciso:
-                  </p>
-                  <ul>
-                    <li>Já ter concluído o Ensino Médio em escola pública</li>
-                    <li>Ser estudante o 3º ano do Ensino Médio de escola pública - caso haja vagas disponíveis, bolsistas de escolas particulares também podem se inscrever</li>
-                  </ul>
-                  <p>
-                    Caso você atenda a um dos requisitos e se interessou por estudar conosco, é só preencher este formulário e ler atentamente todas as orientações. Eventualmente, nós entraremos em contato com você para comunicar os procedimentos para sua integração ao cursinho.
-                  </p>
-                    
-                </div>
-              </div>
-            </div>
+          <h2 id="SejaEducador">Seja nosso educador</h2>
+            <p>
+              <a href="" class="btn btn-lg btn-light">Inscrições fechadas para educadores</a>
+            </p>
 
-            <div class="card">
-              <div class="card-header" id="item23">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse23" aria-expanded="true" aria-controls="collapse23">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Quanto custa para estudar no Cursinho Popular Construção?</h2>
-                </button>
-              </div>
-          
-              <div id="collapse23" class="collapse" aria-labelledby="item23" data-parent="#accordion2">
-                <div class="card-body">
-                  <p>
-                    Nada. O Cursinho Popular Construção é totalmente gratuito para seus educandos. Não há taxa de matrícula, mensalidade nem cobrança por materiais didáticos.
-                  </p>                    
-                </div>
-              </div>
-            </div>
+            <p>
+              Atualmente, o Cursinho Popular Construção oferece aulas nas seguintes disciplinas:
 
-            <div class="card">
-              <div class="card-header" id="item24">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse24" aria-expanded="true" aria-controls="collapse24">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Em quais dias e horários que o cursinho funciona?</h2>
-                </button>
-              </div>
-          
-              <div id="collapse24" class="collapse" aria-labelledby="item24" data-parent="#accordion2">
-                <div class="card-body">
-                  <p>
-                    As aulas do Cursinho Popular Construção ocorrem aos sábados, das 9h às 16h, com pausa de uma hora para o almoço.
-                  </p>
-                </div>
-              </div>
-            </div>
+              <ul>
+                <li>LINGUAGENS: Gramática / Literatura / Redação / Inglês / Espanhol </li>
+                <li>MATEMÁTICA: Álgebra / Geometria</li>
+                <li>CIÊNCIAS DA NATUREZA: Física / Química / Biologia </li>
+                <li>CIÊNCIAS HUMANAS: História / Geografia / Filosofia / Sociologia</li>
+              </ul> 
 
-            <div class="card">
-              <div class="card-header" id="item25">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse25" aria-expanded="true" aria-controls="collapse25">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Onde o Cursinho Popular Construção está localizado?</h2>
-                </button>
-              </div>
-          
-              <div id="collapse25" class="collapse" aria-labelledby="item25" data-parent="#accordion2">
-                <div class="card-body">
-                  <p>
-                    O Cursinho Popular Construção funciona em escolas públicas. Em 2020, o cursinho funcionaria na Escola Municipal de Ensino Fundamental João Amos Commenius, mas com o início da pandemia, as aulas passaram a ser online para a segurança de alunos e educadores.
-                  </p>                    
-                </div>
-              </div>
-            </div>
+            </p>            
+            
+            <p>
+              Caso você tenha interesse em ser um professor voluntário, preencha nosso formulário, que, se houver demanda, entraremos em contato, 
+              lembrando que o período mais propenso para a seleção de novos professores é o do final e início do ano letivo.
+            </p>
 
-            <div class="card">
-              <div class="card-header" id="item26">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse26" aria-expanded="true" aria-controls="collapse26">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Ainda não decidi qual curso quero fazer. Podem me ajudar com isso?</h2>
-                </button>
-              </div>
-          
-              <div id="collapse26" class="collapse" aria-labelledby="item26" data-parent="#accordion2">
-                <div class="card-body">
-                  <p>
-                    Com certeza. Praticamente todos os educandos têm dúvidas sobre qual curso estudar na universidade e isso é mais do que normal. 
-                  </p>
-                    
-                  <p>
-                    Para tratar desse ponto, o Cursinho Popular Construção tem iniciativas como a Orientação Individual, visitas a feiras de profissões, aulas e palestras sobre cursos e universidades, indicações de materiais sobre a questão, entre outras.
-                  </p>                    
-                </div>
-              </div>
-            </div>
+          <h2 id="SejaDoador">Seja doador</h2>
+            <p>
+              Quer fazer uma doação para o Cursinho Popular Construção e apoiar um projeto que ajuda a preparar estudantes da rede pública a desenvolver e acessar a universidade e a desenvolver o pensamento crítico e autonomia?
+            </p>
 
-            <div class="card">
-              <div class="card-header" id="item27">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse27" aria-expanded="true" aria-controls="collapse27">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Como o Cursinho Popular Construção funcionou durante a pandemia de 2020?</h2>
-                </button>
-              </div>
-          
-              <div id="collapse27" class="collapse" aria-labelledby="item27" data-parent="#accordion2">
-                <div class="card-body">
-                  <p>
-                    Assim que a pandemia chegou ao Brasil, todas nossas aulas passaram a ser pela internet, mediante a gravação de aulas pelos professores de cada disciplina, a disponibilização de material didático e o atendimento individual para tirar dúvidas.
-                  </p>
-                </div>
-              </div>
-            </div>
+            <p>
+              Clique <a href="">aqui</a> e faça já sua doação.
+            </p>
 
-            <div class="card">
-              <div class="card-header" id="item28">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse28" aria-expanded="true" aria-controls="collapse28">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Quais aulas que o Cursinho Popular Construção oferece?</h2>
-                </button>
-              </div>
-          
-              <div id="collapse28" class="collapse" aria-labelledby="item28" data-parent="#accordion2">
-                <div class="card-body">
-                  <p>
-                    As aulas oferecidas pelo corpo de educadores do Cursinho Popular Construção são das seguintes disciplinas: Língua Portuguesa, Matemática, Redação, Física, Química, Biologia, História, Geografia, Filosofia, Sociologia, Inglês, Espanhol.
-                  </p>
-                    
-                  <p>
-                    Além disso, o cursinho também oferece rodas de debate, passeios culturais e visitas a universidades e feiras de profissões.
-                  </p>
-                    
-                </div>
-              </div>
-            </div>
+            <p>
+              Lembrando que o Cursinho Popular Construção não cobra um centavo de nenhum de seus alunos, não possui patrocínio de grandes empresas, tampouco aceita dinheiro oriundo de grandes fundações 
+              ligadas às oligarquias empresariais do Brasil e do mundo. <b>Todo o dinheiro usado para arcar com os custos vem exclusivamente de doações de homens e mulheres que acreditam em nossa proposta.</b>
+            </p>
 
-            <div class="card">
-              <div class="card-header" id="item29">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse29" aria-expanded="true" aria-controls="collapse29">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>O que são os passeios culturais? E essas visitas a universidades e feiras de profissões?</h2>
-                </button>
-              </div>
-          
-              <div id="collapse29" class="collapse" aria-labelledby="item29" data-parent="#accordion2">
-                <div class="card-body">
-                  <p>
-                    Os passeios culturais proporcionados pelo Cursinho Popular Construção são passeios a museus, centros culturais, parques e lugares históricos de São Paulo. Esses passeios têm o objetivo de promover um ambiente educativo fora do espaço da sala de aula, além de estimular a integração entre educandos e educadores.
-                  </p>
-                    
-                  <p>
-                    Já as visitas às universidades buscam proporcionar aos educandos conhecer a estrutura física de uma universidade para que possa saciar sua curiosidade e também estabelecer vínculos afetivos com o ambiente universitário. Na lista de universidades que visitamos estão a USP, a Unifesp e UFABC, todas universidades públicas.
-                  </p>
-                    
-                  <p>
-                    Por fim, a participação em Feiras de Profissões visa permitir aos educandos conhecer mais sobre os cursos pelos quais têm interesse na medida em que podem tirar dúvidas com estudantes universitários que participam dessas feiras. 
-                  </p>
-                    
-                  <p>
-                    É importante lembrar que os educandos que forem menores de idade só poderão participar dessas excursões com autorização assinada por um de seus responsáveis.
-                  </p>                    
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="item210">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse210" aria-expanded="true" aria-controls="collapse210">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>O Cursinho Popular Construção funciona de quando a quando no ano?</h2>
-                </button>
-              </div>
-          
-              <div id="collapse210" class="collapse" aria-labelledby="item210" data-parent="#accordion2">
-                <div class="card-body">
-                  <p>
-                    Normalmente, o cursinho tem início em março e vai até novembro, com pausa de um mês de férias, geralmente em julho. Mas esse calendário pode variar de acordo com as circunstâncias. 
-                  </p>
-                    
-                  <p>
-                    Para 2012, ainda não temos uma definição do calendário de aulas, mas assim que ele for definido, divulgaremos aqui no site e em nossas redes sociais.
-                  </p>
-                    
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="item211">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse211" aria-expanded="true" aria-controls="collapse211">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>O Cursinho Popular Construção fornece material didático?</h2>
-                </button>
-              </div>
-          
-              <div id="collapse211" class="collapse" aria-labelledby="item211" data-parent="#accordion2">
-                <div class="card-body">
-                  <p>
-                    O Cursinho Popular Construção trabalha com material impresso com conteúdo referente às aulas, o qual é entregue nas próprias aulas.
-                  </p>
-                    
-                  <p>
-                    Caso um educando falte à aula, ele ainda poderá acessar esse material em formato PDF, que estará disponível em uma pasta virtual na internet,  ou poderá solicitar uma cópia impressa junto à coordenação do cursinho na aula seguinte.
-                  </p>
-                    
-                  <p>
-                    É importante lembrar que esse material impresso é entregue gratuitamente.
-                  </p>
-                    
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="item212">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse212" aria-expanded="true" aria-controls="collapse212">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Como o Cursinho Popular Construção se financia?</h2>
-                </button>
-              </div>
-          
-              <div id="collapse212" class="collapse" aria-labelledby="item212" data-parent="#accordion2">
-                <div class="card-body">
-                  <p> 
-                    O Cursinho Popular Construção é financiado exclusivamente por doações feitas por seus próprios educadores e apoiadores, e também por valores arrecadados em eventos de confraternização.
-                  </p>                    
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="item213">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse213" aria-expanded="true" aria-controls="collapse213">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Posso entrar depois das aulas já terem começado?</h2>
-                </button>
-              </div>
-          
-              <div id="collapse213" class="collapse" aria-labelledby="item213" data-parent="#accordion2">
-                <div class="card-body">
-                  <p>
-                    Sim. Contudo, é possível que você leve um tempo para se equiparar com o conteúdo já visto pelos educandos que estavam desde o início do período letivo. Para isso, educadores e coordenação vão colaborar com sua adaptação.
-                  </p>
-                    
-                  <p>
-                    Após essa fase, você será integrado normalmente às aulas convencionais.
-                  </p>
-                    
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="item214">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse214" aria-expanded="true" aria-controls="collapse214">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Qual a duração das aulas?</h2>
-                </button>
-              </div>
-          
-              <div id="collapse214" class="collapse" aria-labelledby="item214" data-parent="#accordion2">
-                <div class="card-body">
-                  <p>
-                    As aulas do Cursinho Popular Construção duram 50 minutos.
-                  </p>                    
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="item215">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse215" aria-expanded="true" aria-controls="collapse215">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Tem intervalo entre as aulas?</h2>
-                </button>
-              </div>
-          
-              <div id="collapse215" class="collapse" aria-labelledby="item215" data-parent="#accordion2">
-                <div class="card-body">
-                  <p>
-                    Sim, o Cursinho Popular Construção faz uma pausa de 50 minutos no horário do almoço para que educadores e educandos possam se alimentar e também confraternizar. É importante mencionar que disponibilizamos geladeira e microondas para que os educandos possam guardar suas marmitas e esquentá-las na hora que for comê-las.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="item216">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse216" aria-expanded="true" aria-controls="collapse216">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>O Cursinho Popular Construção fornece almoço ou lanche?</h2>
-                </button>
-              </div>
-          
-              <div id="collapse216" class="collapse" aria-labelledby="item216" data-parent="#accordion2">
-                <div class="card-body">
-                  <p>
-                    Por enquanto ainda não, apenas geladeira e microondas para que os educandos possam trazer marmitas de casa.
-                  </p>                    
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="item217">
-                <button class="btn btn-block" data-toggle="collapse" data-target="#collapse217" aria-expanded="true" aria-controls="collapse217">
-									<!-- ao criar card novo, SEMPRE trocar os ID de data-target, aria-controls, etc-->
-                  <h2>Estar matriculado no Cursinho Popular Construção dá direito à gratuidade no transporte público?</h2>
-                </button>
-              </div>
-          
-              <div id="collapse217" class="collapse" aria-labelledby="item217" data-parent="#accordion2">
-                <div class="card-body">
-                  <p>
-                    Infelizmente, não. 
-                  </p>
-                    
-                  <p>
-                    Em 2019, o Cursinho Popular Construção esteve engajado em uma campanha puxada pela Frente de Cursinhos Populares para sensibilizar a Prefeitura de São Paulo a aprovar o Projeto de Lei 508/2016, que concedia a gratuidade nos ônibus municipais a estudantes de cursinhos populares e havia sido aprovado na Câmara de Vereadores. Entretanto, o prefeito Bruno Covas, do PSDB, acabou vetando esse projeto.
-                  </p>                    
-                </div>
-              </div>
-            </div>
-
-          </div>
+            <p>
+              Portanto, seu apoio é mais que importante; ele é fundamental para que continuemos existindo.
+            </p>
 
         </div>
 
