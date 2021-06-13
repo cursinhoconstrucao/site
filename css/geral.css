@@ -64,17 +64,17 @@ hr{
 }
 
 /* cores das seções */
-#QuemSomos,#FAQ{
+#Agora,#Colabore{
     background-color: rgba(99, 0, 82, 0.5);
     color: rgb(49, 0, 42);
 }
 
-#EspaçoEstudante{
+#QuemSomos,#FAQ{
     background-color: rgba(171, 0, 36, 0.5);
     color: rgb(40, 0, 16);
 }
 
-#Colabore{
+#EspaçoEstudante{
     background-color: rgba(171, 104, 0, 0.5);
     color: rgb(40, 0, 16);
 }
@@ -89,6 +89,7 @@ hr{
     margin: 0;
 }
 
+/*** passar o mouse por cima do botão faz fundo ficar preto e fonte branca ***/
 button:active,button:hover,.nav-item.active,.nav-item:hover,.nav-item>a:hover,.btn-block:hover,.dropdown-toggle:hover{
     background-color: black;
     color: white;
@@ -138,6 +139,11 @@ button:active,button:hover,.nav-item.active,.nav-item:hover,.nav-item>a:hover,.b
 /* TEXTO */
 /*** diagramação ***/
 .justified:not(h1){
+    text-align: justify;
+    text-align-last: center;
+}
+
+p{
     text-align: justify;
     text-align-last: center;
 }
@@ -198,6 +204,7 @@ p,li{
     margin: 20px 0;
 }
 
+/***** fonte diferente para o heading 1 *****/
 .conteúdo > h1{
     font-family: Comfortaa;
     font-size: 1.9rem;
@@ -218,7 +225,7 @@ p,li{
 
 /* resto */
 #logo{
-    width: 450px;
+    width: 420px;
 }
 
 #icone{
@@ -232,12 +239,10 @@ p,li{
 
 ul{
     display: inline-block;
-    text-align: left;
-    text-align-last: left;
 }
 
 li{
-    text-align: left;
+    text-align: justify;
     text-align-last: left;
 }
 
@@ -276,7 +281,7 @@ li{
 @media only screen and (min-width: 900px) {
   /* Computadores */
   .container-fluid{
-    width: 950px;
+    width: 850px;
   }
 
   #botao-voltar-topo{
